@@ -1,0 +1,1217 @@
+{
+  "nodes": [
+    {
+      "color": "#03A9F4",
+      "label": "植物眼",
+      "attributes": {},
+      "y": 99.27939871750323,
+      "x": -1308.867803564915,
+      "id": "植物眼",
+      "size": 4.3198249252456975
+    },
+    {
+      "color": "#03A9F4",
+      "label": "内含子",
+      "attributes": {},
+      "y": -673.6248194944694,
+      "x": -391.8639020240996,
+      "id": "内含子",
+      "size": 13.667492249849065
+    },
+    {
+      "color": "#3E2723",
+      "label": "河森堡",
+      "attributes": {},
+      "y": 841.3631803272658,
+      "x": -723.7472380916039,
+      "id": "河森堡",
+      "size": 3.2846899913337273
+    },
+    {
+      "color": "#F44336",
+      "label": "折翼丛林",
+      "attributes": {},
+      "y": 14.889211610454367,
+      "x": 582.149090944049,
+      "id": "折翼丛林",
+      "size": 3.7200436000318824
+    },
+    {
+      "color": "#3F51B5",
+      "label": "贼叉",
+      "attributes": {},
+      "y": -311.0214780665855,
+      "x": -768.8090179633274,
+      "id": "贼叉",
+      "size": 8.890998001586404
+    },
+    {
+      "color": "#1976D2",
+      "label": "天冬",
+      "attributes": {},
+      "y": -640.0548181470483,
+      "x": 669.344831467216,
+      "id": "天冬",
+      "size": 13.609716438652287
+    },
+    {
+      "color": "#212121",
+      "label": "ZKColorful",
+      "attributes": {},
+      "y": -208.21300800286588,
+      "x": -1201.5876534018837,
+      "id": "ZKColorful",
+      "size": 9.128539233471331
+    },
+    {
+      "color": "#1A237E",
+      "label": "常岩CY",
+      "attributes": {},
+      "y": 892.9565152056205,
+      "x": -410.63128267073535,
+      "id": "常岩CY",
+      "size": 1.7953516702139989
+    },
+    {
+      "color": "#FFA000",
+      "label": "胡正阳",
+      "attributes": {},
+      "y": 309.54950353502863,
+      "x": -198.696739998476,
+      "id": "胡正阳",
+      "size": 11.737469401563741
+    },
+    {
+      "color": "#212121",
+      "label": "硬哥",
+      "attributes": {},
+      "y": -929.5196399204244,
+      "x": 1355.7490003980756,
+      "id": "硬哥",
+      "size": 12.499714019469813
+    },
+    {
+      "color": "#9E9E9E",
+      "label": "植物眼1",
+      "attributes": {},
+      "y": 713.3771707349331,
+      "x": 681.6888640681805,
+      "id": "植物眼1",
+      "size": 15.687345751910891
+    },
+    {
+      "color": "#795548",
+      "label": "内含子1",
+      "attributes": {},
+      "y": 189.7663805184718,
+      "x": 825.280820531591,
+      "id": "内含子1",
+      "size": 11.344705203039073
+    },
+    {
+      "color": "#03A9F4",
+      "label": "河森堡1",
+      "attributes": {},
+      "y": 769.7156625708985,
+      "x": -806.3179531393299,
+      "id": "河森堡1",
+      "size": 13.254525824969491
+    },
+    {
+      "color": "#006064",
+      "label": "折翼丛林1",
+      "attributes": {},
+      "y": 926.3506946437576,
+      "x": -1048.114122309713,
+      "id": "折翼丛林1",
+      "size": 13.485843438282203
+    },
+    {
+      "color": "#880E4F",
+      "label": "贼叉1",
+      "attributes": {},
+      "y": 154.1703126104576,
+      "x": -1362.7312407359707,
+      "id": "贼叉1",
+      "size": 14.168595161752648
+    },
+    {
+      "color": "#3F51B5",
+      "label": "天冬1",
+      "attributes": {},
+      "y": 416.6211330001347,
+      "x": -1158.3366934858045,
+      "id": "天冬1",
+      "size": 15.777179189381638
+    },
+    {
+      "color": "#4A148C",
+      "label": "ZKColorful1",
+      "attributes": {},
+      "y": 323.29267756917966,
+      "x": 684.0888378712898,
+      "id": "ZKColorful1",
+      "size": 8.353040702191178
+    },
+    {
+      "color": "#FFC107",
+      "label": "常岩CY1",
+      "attributes": {},
+      "y": 520.1088552213166,
+      "x": 1287.0820653786836,
+      "id": "常岩CY1",
+      "size": 9.032942937390883
+    },
+    {
+      "color": "#BF360C",
+      "label": "胡正阳1",
+      "attributes": {},
+      "y": 940.369752237363,
+      "x": 347.9172587300318,
+      "id": "胡正阳1",
+      "size": 4.475010093595263
+    },
+    {
+      "color": "#795548",
+      "label": "硬哥1",
+      "attributes": {},
+      "y": 755.8531383823943,
+      "x": -244.17517887708937,
+      "id": "硬哥1",
+      "size": 3.2684586575030243
+    },
+    {
+      "color": "#F44336",
+      "label": "植物眼2",
+      "attributes": {},
+      "y": -310.12929233319926,
+      "x": 1027.5502364147778,
+      "id": "植物眼2",
+      "size": 14.047831703610237
+    },
+    {
+      "color": "#BF360C",
+      "label": "内含子2",
+      "attributes": {},
+      "y": 478.1535788894382,
+      "x": -318.849393803039,
+      "id": "内含子2",
+      "size": 7.707101003438523
+    },
+    {
+      "color": "#33691E",
+      "label": "河森堡3",
+      "attributes": {},
+      "y": -554.8521926832107,
+      "x": -666.3214253426299,
+      "id": "河森堡3",
+      "size": 7.79200852406143
+    },
+    {
+      "color": "#FFC107",
+      "label": "折翼丛林4",
+      "attributes": {},
+      "y": -95.61486908725908,
+      "x": -1300.9460420071314,
+      "id": "折翼丛林4",
+      "size": 1.7947082159153165
+    },
+    {
+      "color": "#006064",
+      "label": "贼叉5",
+      "attributes": {},
+      "y": -913.3752009577931,
+      "x": 822.7222897978036,
+      "id": "贼叉5",
+      "size": 18.911029137706524
+    },
+    {
+      "color": "#FF5722",
+      "label": "天冬6",
+      "attributes": {},
+      "y": -823.4903786341836,
+      "x": 329.4413201004302,
+      "id": "天冬6",
+      "size": 15.88438250465202
+    },
+    {
+      "color": "#B71C1C",
+      "label": "ZKColorful8",
+      "attributes": {},
+      "y": -972.9821772489593,
+      "x": 178.0598257124991,
+      "id": "ZKColorful8",
+      "size": 9.391919736545342
+    },
+    {
+      "color": "#9E9E9E",
+      "label": "常岩CY11",
+      "attributes": {},
+      "y": 924.0616188613551,
+      "x": 1055.2035056196178,
+      "id": "常岩CY11",
+      "size": 5.329112688966355
+    },
+    {
+      "color": "#9C27B0",
+      "label": "胡正阳12",
+      "attributes": {},
+      "y": 886.9464190841293,
+      "x": 681.9462723832239,
+      "id": "胡正阳12",
+      "size": 5.086183879631655
+    },
+    {
+      "color": "#1976D2",
+      "label": "硬哥13",
+      "attributes": {},
+      "y": -884.573034297013,
+      "x": -9.39142766664736,
+      "id": "硬哥13",
+      "size": 2.3226738449469595
+    },
+    {
+      "color": "#03A9F4",
+      "label": "植物眼21",
+      "attributes": {},
+      "y": 941.3646824277869,
+      "x": -469.3473015974005,
+      "id": "植物眼21",
+      "size": 12.676196063673357
+    },
+    {
+      "color": "#0D47A1",
+      "label": "内含子21",
+      "attributes": {},
+      "y": 210.48552995902583,
+      "x": 401.2914494930576,
+      "id": "内含子21",
+      "size": 6.834423652057258
+    },
+    {
+      "color": "#B71C1C",
+      "label": "河森堡13",
+      "attributes": {},
+      "y": -290.93232100232626,
+      "x": -188.02861425635137,
+      "id": "河森堡13",
+      "size": 6.769853503186605
+    },
+    {
+      "color": "#00BCD4",
+      "label": "折翼丛林41",
+      "attributes": {},
+      "y": -671.2727910155379,
+      "x": 599.2640075841018,
+      "id": "折翼丛林41",
+      "size": 2.3037501838127112
+    },
+    {
+      "color": "#006064",
+      "label": "贼叉51",
+      "attributes": {},
+      "y": -892.1586752010908,
+      "x": 796.7541898435538,
+      "id": "贼叉51",
+      "size": 4.45319781607276
+    },
+    {
+      "color": "#03A9F4",
+      "label": "天冬61",
+      "attributes": {},
+      "y": -194.45301551209673,
+      "x": -329.58819993235807,
+      "id": "天冬61",
+      "size": 14.557649483353758
+    },
+    {
+      "color": "#CDDC39",
+      "label": "ZKColorful81",
+      "attributes": {},
+      "y": -70.08743655813828,
+      "x": 1155.5482273030761,
+      "id": "ZKColorful81",
+      "size": 4.047808989156592
+    },
+    {
+      "color": "#F57F17",
+      "label": "常岩CY111",
+      "attributes": {},
+      "y": -448.04428105925047,
+      "x": -1214.5633863802134,
+      "id": "常岩CY111",
+      "size": 4.299918435245275
+    },
+    {
+      "color": "#4CAF50",
+      "label": "胡正阳112",
+      "attributes": {},
+      "y": 14.557378374682003,
+      "x": -448.7715506351012,
+      "id": "胡正阳112",
+      "size": 3.26472485121198
+    },
+    {
+      "color": "#FF5722",
+      "label": "硬哥113",
+      "attributes": {},
+      "y": 611.2617796796123,
+      "x": 340.2798108034242,
+      "id": "硬哥113",
+      "size": 15.710957113429489
+    },
+    {
+      "color": "#9E9E9E",
+      "label": "空中的士马宏",
+      "attributes": {
+        "关系": "本人"
+      },
+      "y": 0,
+      "x": 0,
+      "id": "空中的士马宏",
+      "size": 20
+    }
+  ],
+  "edges": [
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "植物眼",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "内含子",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "河森堡",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "折翼丛林",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "贼叉",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "天冬",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "ZKColorful",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "常岩CY",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "胡正阳",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "硬哥",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "植物眼1",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "内含子1",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "河森堡1",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "折翼丛林1",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "贼叉1",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "天冬1",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "ZKColorful1",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "常岩CY1",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "胡正阳1",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "硬哥1",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "植物眼2",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "内含子2",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "河森堡3",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "折翼丛林4",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "贼叉5",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "天冬6",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "ZKColorful8",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "常岩CY11",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "胡正阳12",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "硬哥13",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "植物眼21",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "内含子21",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "河森堡13",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "折翼丛林41",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "贼叉51",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "天冬61",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "ZKColorful81",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "常岩CY111",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "胡正阳112",
+      "size": 1
+    },
+    {
+      "sourceID": "空中的士马宏",
+      "attributes": {},
+      "targetID": "硬哥113",
+      "size": 1
+    },
+    {
+      "sourceID": "植物眼",
+      "attributes": {},
+      "targetID": "河森堡3",
+      "size": 0.5
+    },
+    {
+      "sourceID": "胡正阳",
+      "attributes": {},
+      "targetID": "折翼丛林4",
+      "size": 0.5
+    },
+    {
+      "sourceID": "胡正阳12",
+      "attributes": {},
+      "targetID": "ZKColorful81",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼21",
+      "attributes": {},
+      "targetID": "贼叉51",
+      "size": 0.5
+    },
+    {
+      "sourceID": "天冬6",
+      "attributes": {},
+      "targetID": "折翼丛林",
+      "size": 0.5
+    },
+    {
+      "sourceID": "常岩CY1",
+      "attributes": {},
+      "targetID": "胡正阳",
+      "size": 0.5
+    },
+    {
+      "sourceID": "内含子2",
+      "attributes": {},
+      "targetID": "植物眼2",
+      "size": 0.5
+    },
+    {
+      "sourceID": "折翼丛林1",
+      "attributes": {},
+      "targetID": "内含子1",
+      "size": 0.5
+    },
+    {
+      "sourceID": "常岩CY",
+      "attributes": {},
+      "targetID": "内含子2",
+      "size": 0.5
+    },
+    {
+      "sourceID": "硬哥13",
+      "attributes": {},
+      "targetID": "胡正阳112",
+      "size": 0.5
+    },
+    {
+      "sourceID": "常岩CY111",
+      "attributes": {},
+      "targetID": "植物眼21",
+      "size": 0.5
+    },
+    {
+      "sourceID": "硬哥1",
+      "attributes": {},
+      "targetID": "贼叉1",
+      "size": 0.5
+    },
+    {
+      "sourceID": "河森堡",
+      "attributes": {},
+      "targetID": "折翼丛林41",
+      "size": 0.5
+    },
+    {
+      "sourceID": "胡正阳1",
+      "attributes": {},
+      "targetID": "植物眼1",
+      "size": 0.5
+    },
+    {
+      "sourceID": "贼叉5",
+      "attributes": {},
+      "targetID": "折翼丛林",
+      "size": 0.5
+    },
+    {
+      "sourceID": "折翼丛林41",
+      "attributes": {},
+      "targetID": "植物眼21",
+      "size": 0.5
+    },
+    {
+      "sourceID": "贼叉5",
+      "attributes": {},
+      "targetID": "胡正阳1",
+      "size": 0.5
+    },
+    {
+      "sourceID": "河森堡1",
+      "attributes": {},
+      "targetID": "河森堡13",
+      "size": 0.5
+    },
+    {
+      "sourceID": "胡正阳12",
+      "attributes": {},
+      "targetID": "河森堡13",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼1",
+      "attributes": {},
+      "targetID": "ZKColorful8",
+      "size": 0.5
+    },
+    {
+      "sourceID": "天冬61",
+      "attributes": {},
+      "targetID": "植物眼",
+      "size": 0.5
+    },
+    {
+      "sourceID": "折翼丛林41",
+      "attributes": {},
+      "targetID": "内含子2",
+      "size": 0.5
+    },
+    {
+      "sourceID": "常岩CY",
+      "attributes": {},
+      "targetID": "硬哥",
+      "size": 0.5
+    },
+    {
+      "sourceID": "内含子2",
+      "attributes": {},
+      "targetID": "内含子",
+      "size": 0.5
+    },
+    {
+      "sourceID": "河森堡3",
+      "attributes": {},
+      "targetID": "天冬",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼2",
+      "attributes": {},
+      "targetID": "贼叉5",
+      "size": 0.5
+    },
+    {
+      "sourceID": "常岩CY1",
+      "attributes": {},
+      "targetID": "内含子",
+      "size": 0.5
+    },
+    {
+      "sourceID": "ZKColorful81",
+      "attributes": {},
+      "targetID": "硬哥1",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼",
+      "attributes": {},
+      "targetID": "贼叉",
+      "size": 0.5
+    },
+    {
+      "sourceID": "折翼丛林",
+      "attributes": {},
+      "targetID": "胡正阳1",
+      "size": 0.5
+    },
+    {
+      "sourceID": "硬哥",
+      "attributes": {},
+      "targetID": "河森堡13",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼",
+      "attributes": {},
+      "targetID": "植物眼21",
+      "size": 0.5
+    },
+    {
+      "sourceID": "硬哥",
+      "attributes": {},
+      "targetID": "植物眼",
+      "size": 0.5
+    },
+    {
+      "sourceID": "贼叉51",
+      "attributes": {},
+      "targetID": "硬哥113",
+      "size": 0.5
+    },
+    {
+      "sourceID": "天冬61",
+      "attributes": {},
+      "targetID": "折翼丛林4",
+      "size": 0.5
+    },
+    {
+      "sourceID": "硬哥",
+      "attributes": {},
+      "targetID": "硬哥13",
+      "size": 0.5
+    },
+    {
+      "sourceID": "天冬1",
+      "attributes": {},
+      "targetID": "常岩CY111",
+      "size": 0.5
+    },
+    {
+      "sourceID": "常岩CY",
+      "attributes": {},
+      "targetID": "内含子",
+      "size": 0.5
+    },
+    {
+      "sourceID": "河森堡3",
+      "attributes": {},
+      "targetID": "天冬6",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼1",
+      "attributes": {},
+      "targetID": "ZKColorful",
+      "size": 0.5
+    },
+    {
+      "sourceID": "折翼丛林1",
+      "attributes": {},
+      "targetID": "贼叉5",
+      "size": 0.5
+    },
+    {
+      "sourceID": "ZKColorful81",
+      "attributes": {},
+      "targetID": "常岩CY111",
+      "size": 0.5
+    },
+    {
+      "sourceID": "胡正阳112",
+      "attributes": {},
+      "targetID": "折翼丛林",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼1",
+      "attributes": {},
+      "targetID": "常岩CY111",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼2",
+      "attributes": {},
+      "targetID": "常岩CY111",
+      "size": 0.5
+    },
+    {
+      "sourceID": "胡正阳1",
+      "attributes": {},
+      "targetID": "植物眼21",
+      "size": 0.5
+    },
+    {
+      "sourceID": "硬哥13",
+      "attributes": {},
+      "targetID": "天冬",
+      "size": 0.5
+    },
+    {
+      "sourceID": "ZKColorful1",
+      "attributes": {},
+      "targetID": "折翼丛林41",
+      "size": 0.5
+    },
+    {
+      "sourceID": "内含子1",
+      "attributes": {},
+      "targetID": "常岩CY",
+      "size": 0.5
+    },
+    {
+      "sourceID": "天冬61",
+      "attributes": {},
+      "targetID": "天冬",
+      "size": 0.5
+    },
+    {
+      "sourceID": "贼叉51",
+      "attributes": {},
+      "targetID": "贼叉5",
+      "size": 0.5
+    },
+    {
+      "sourceID": "硬哥13",
+      "attributes": {},
+      "targetID": "天冬61",
+      "size": 0.5
+    },
+    {
+      "sourceID": "贼叉1",
+      "attributes": {},
+      "targetID": "河森堡13",
+      "size": 0.5
+    },
+    {
+      "sourceID": "常岩CY111",
+      "attributes": {},
+      "targetID": "硬哥",
+      "size": 0.5
+    },
+    {
+      "sourceID": "硬哥1",
+      "attributes": {},
+      "targetID": "植物眼2",
+      "size": 0.5
+    },
+    {
+      "sourceID": "河森堡3",
+      "attributes": {},
+      "targetID": "常岩CY111",
+      "size": 0.5
+    },
+    {
+      "sourceID": "ZKColorful",
+      "attributes": {},
+      "targetID": "折翼丛林1",
+      "size": 0.5
+    },
+    {
+      "sourceID": "天冬1",
+      "attributes": {},
+      "targetID": "贼叉",
+      "size": 0.5
+    },
+    {
+      "sourceID": "折翼丛林",
+      "attributes": {},
+      "targetID": "折翼丛林41",
+      "size": 0.5
+    },
+    {
+      "sourceID": "ZKColorful81",
+      "attributes": {},
+      "targetID": "内含子2",
+      "size": 0.5
+    },
+    {
+      "sourceID": "河森堡",
+      "attributes": {},
+      "targetID": "天冬1",
+      "size": 0.5
+    },
+    {
+      "sourceID": "河森堡1",
+      "attributes": {},
+      "targetID": "贼叉51",
+      "size": 0.5
+    },
+    {
+      "sourceID": "胡正阳1",
+      "attributes": {},
+      "targetID": "植物眼",
+      "size": 0.5
+    },
+    {
+      "sourceID": "常岩CY1",
+      "attributes": {},
+      "targetID": "硬哥13",
+      "size": 0.5
+    },
+    {
+      "sourceID": "河森堡1",
+      "attributes": {},
+      "targetID": "贼叉",
+      "size": 0.5
+    },
+    {
+      "sourceID": "ZKColorful",
+      "attributes": {},
+      "targetID": "天冬1",
+      "size": 0.5
+    },
+    {
+      "sourceID": "贼叉1",
+      "attributes": {},
+      "targetID": "植物眼",
+      "size": 0.5
+    },
+    {
+      "sourceID": "ZKColorful81",
+      "attributes": {},
+      "targetID": "天冬1",
+      "size": 0.5
+    },
+    {
+      "sourceID": "天冬",
+      "attributes": {},
+      "targetID": "内含子2",
+      "size": 0.5
+    },
+    {
+      "sourceID": "常岩CY11",
+      "attributes": {},
+      "targetID": "植物眼21",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼2",
+      "attributes": {},
+      "targetID": "常岩CY",
+      "size": 0.5
+    },
+    {
+      "sourceID": "天冬1",
+      "attributes": {},
+      "targetID": "常岩CY11",
+      "size": 0.5
+    },
+    {
+      "sourceID": "内含子21",
+      "attributes": {},
+      "targetID": "常岩CY",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼",
+      "attributes": {},
+      "targetID": "常岩CY11",
+      "size": 0.5
+    },
+    {
+      "sourceID": "ZKColorful1",
+      "attributes": {},
+      "targetID": "贼叉",
+      "size": 0.5
+    },
+    {
+      "sourceID": "ZKColorful",
+      "attributes": {},
+      "targetID": "常岩CY11",
+      "size": 0.5
+    },
+    {
+      "sourceID": "ZKColorful",
+      "attributes": {},
+      "targetID": "贼叉",
+      "size": 0.5
+    },
+    {
+      "sourceID": "折翼丛林1",
+      "attributes": {},
+      "targetID": "胡正阳12",
+      "size": 0.5
+    },
+    {
+      "sourceID": "折翼丛林41",
+      "attributes": {},
+      "targetID": "贼叉5",
+      "size": 0.5
+    },
+    {
+      "sourceID": "折翼丛林4",
+      "attributes": {},
+      "targetID": "内含子",
+      "size": 0.5
+    },
+    {
+      "sourceID": "胡正阳1",
+      "attributes": {},
+      "targetID": "硬哥113",
+      "size": 0.5
+    },
+    {
+      "sourceID": "天冬",
+      "attributes": {},
+      "targetID": "ZKColorful",
+      "size": 0.5
+    },
+    {
+      "sourceID": "河森堡13",
+      "attributes": {},
+      "targetID": "贼叉5",
+      "size": 0.5
+    },
+    {
+      "sourceID": "天冬",
+      "attributes": {},
+      "targetID": "胡正阳112",
+      "size": 0.5
+    },
+    {
+      "sourceID": "河森堡3",
+      "attributes": {},
+      "targetID": "折翼丛林4",
+      "size": 0.5
+    },
+    {
+      "sourceID": "ZKColorful1",
+      "attributes": {},
+      "targetID": "天冬",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼1",
+      "attributes": {},
+      "targetID": "折翼丛林1",
+      "size": 0.5
+    },
+    {
+      "sourceID": "河森堡3",
+      "attributes": {},
+      "targetID": "常岩CY1",
+      "size": 0.5
+    },
+    {
+      "sourceID": "折翼丛林",
+      "attributes": {},
+      "targetID": "ZKColorful81",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼2",
+      "attributes": {},
+      "targetID": "折翼丛林41",
+      "size": 0.5
+    },
+    {
+      "sourceID": "河森堡3",
+      "attributes": {},
+      "targetID": "内含子",
+      "size": 0.5
+    },
+    {
+      "sourceID": "河森堡13",
+      "attributes": {},
+      "targetID": "胡正阳112",
+      "size": 0.5
+    },
+    {
+      "sourceID": "常岩CY1",
+      "attributes": {},
+      "targetID": "胡正阳1",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼",
+      "attributes": {},
+      "targetID": "内含子2",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼",
+      "attributes": {},
+      "targetID": "ZKColorful",
+      "size": 0.5
+    },
+    {
+      "sourceID": "天冬1",
+      "attributes": {},
+      "targetID": "常岩CY",
+      "size": 0.5
+    },
+    {
+      "sourceID": "ZKColorful81",
+      "attributes": {},
+      "targetID": "河森堡3",
+      "size": 0.5
+    },
+    {
+      "sourceID": "常岩CY11",
+      "attributes": {},
+      "targetID": "胡正阳12",
+      "size": 0.5
+    },
+    {
+      "sourceID": "植物眼21",
+      "attributes": {},
+      "targetID": "硬哥",
+      "size": 0.5
+    },
+    {
+      "sourceID": "常岩CY",
+      "attributes": {},
+      "targetID": "ZKColorful",
+      "size": 0.5
+    }
+  ]
+}

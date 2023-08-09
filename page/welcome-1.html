@@ -1,0 +1,370 @@
+<style>
+    .welcome .layui-card {border:1px solid #f2f2f2;border-radius:5px;}
+    .welcome .new-card {border:1px solid #f2f2f2;border-radius:5px;height:440px}
+    .welcome .icon {margin-right:10px;color:#1aa094;}
+    .welcome .icon-cray {color:#ffb800 !important;}
+    .welcome .icon-blue {color:#1e9fff !important;}
+    .welcome .icon-tip {color:#ff5722 !important;}
+    .welcome .layuimini-qiuck-module {text-align:center;margin-top:10px}
+    .welcome .layuimini-qiuck-module a i {display:inline-block;width:100%;height:60px;line-height:60px;text-align:center;border-radius:2px;font-size:30px;background-color:#F8F8F8;color:#333;transition:all .3s;-webkit-transition:all .3s;}
+    .welcome .layuimini-qiuck-module a cite {position:relative;top:2px;display:block;color:#666;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;font-size:14px;}
+    .welcome .welcome-module {width:100%;height:210px;}
+    .welcome .panel {background-color:#fff;border:1px solid transparent;border-radius:3px;-webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);box-shadow:0 1px 1px rgba(0,0,0,.05)}
+    .welcome .panel-body {padding:10px}
+    .welcome .panel-title {margin-top:0;margin-bottom:0;font-size:12px;color:inherit}
+    .welcome .label {display:inline;padding:.2em .6em .3em;font-size:75%;font-weight:700;line-height:1;color:#fff;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25em;margin-top:.3em;}
+    .welcome .layui-red {color:red}
+    .welcome .main_btn > p {height:40px;}
+    .welcome .layui-bg-number {background-color:#F8F8F8;}
+    .welcome .layuimini-notice:hover {background:#f6f6f6;}
+    .welcome .layuimini-notice {padding:7px 16px;clear:both;font-size:12px !important;cursor:pointer;position:relative;transition:background 0.2s ease-in-out;}
+    .welcome .layuimini-notice-title,.layuimini-notice-label {padding-right:70px !important;text-overflow:ellipsis !important;overflow:hidden !important;white-space:nowrap !important;}
+    .welcome .layuimini-notice-title {line-height:28px;font-size:14px;}
+    .welcome .layuimini-notice-extra {position:absolute;top:50%;margin-top:-8px;right:16px;display:inline-block;height:16px;color:#999;}
+    .welcome .image-container {
+    margin-top: 20px; /* 调整图片与上边框的距离 */
+    margin-left: 15px; /* 调整图片与左边框的距离 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .welcome .image-container img {
+    width: 120px; /* 调整图片的宽度 */
+    height: auto; /* 根据宽度自动调整高度 */
+    }
+    .welcome .image-caption {
+    text-align: center;
+    margin-top: 10px; /* 调整图片描述与图片之间的间距 */
+    font-size: 14px; /* 调整图片描述的字体大小 */
+    color: #333; /* 调整图片描述的字体颜色 */
+    }
+    .box{
+		width:250px;
+		height:40px;
+		border:2px solid rgb(1, 1, 22);
+		margin:auto;
+	}
+    .input{
+		float:left;
+		width:200px;/*宽400*/
+		height:38px;/*高38（因为文本框内外边框要占用1像素所以总体高度减2，其他盒子同理）*/
+		outline:none;
+		border:none;/*取消文本框内外边框*/
+	}
+    .button{
+	float:left;
+	width:50px;
+	height:40px;
+	color:white;
+	background-color:rgb(49, 8, 122);/*将按钮背景设置为红色，字体设置为白*/
+	border:none;
+	outline:none;/*取消边框和外边框将按钮边框去掉*/
+}
+
+</style >
+
+<div class="layuimini-container layuimini-page-anim">
+    <div class="layuimini-main welcome">
+        <div class="layui-row layui-col-space15">
+            <div class="layui-col-md8">
+                <div class="layui-row layui-col-space15">
+                    <div class="layui-col-md12">
+                        <div class="layui-card" style="background-color: rgb(248, 252, 242);">
+                            <div class="layui-card-header" style="text-align: center; color: rgb(14, 88, 40); font-size: 25px;">微博社交平台隐私泄露风险警示系统</div>
+                            <div class="layui-card-body">
+                                <div class="layui-row layui-col-space10 layuimini-qiuck">
+                                    <div class="layui-col-md6">
+                                        <div class="image-container" id="头像">
+
+                                        </div>
+                                        <div class="image-caption" id="主页信息">
+
+                                        </div>
+                                    </div>
+                                    <div class="layui-col-md6" style="margin-top: 20px;" id="所有信息">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-col-md12">
+                        <div class="layui-card">
+                            <div class="layui-card-header"><i class="fa fa-line-chart icon"></i>社交网络</div>
+                            <div class="layui-card-body" id="echart-pie-test">
+                                <div id="echarts-relation" style="width: 1000px; height:600px"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layui-col-md4">
+
+                <div class="layui-card">
+                    <div class="layui-card-header"><i class="fa fa-bar-chart icon icon-tip"></i>数据统计</div>
+                    <div class="layui-card-body layui-text">
+                        <div id="echarts-pies" style="background-color:#ffffff;min-height:300px;padding: 10px"></div>
+                        <div class="layuimini-notice" id="信息概览">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-card">
+                    <div class="layui-card-header"><i class="fa fa-fire icon"></i>搜索用户</div>
+                    <div class="layui-card-body layui-text">
+                        <div class="box">
+                            <form>
+                                <input type="text" class="input" placeholder="  用户名" id="search">
+                                <!--placeholder是文本框中的提示文字-->
+                                <input type="submit" value="搜索" class="button">
+                            </form>
+                                <br>
+                                <fieldset>
+                                    <legend>请选择检测范围：</legend>
+                                    <div>
+                                        <input type = "checkbox" id = "是否选择文本" name = "是否选择文本" checked/>
+                                        <label for="是否选择文本">是否选择文本</label>
+                                    </div>
+                                    <div>
+                                        <input type = "checkbox" id = "是否选择图像" name = "是否选择图像" checked/>
+                                        <label for="是否选择图像">是否选择图像</label>
+                                    </div>
+                                    <div>
+                                        <input type = "checkbox" id = "是否选择社交网络" name = "是否选择社交网络" checked/>
+                                        <label for="是否选择社交网络">是否选择社交网络</label>
+                                    </div>
+                                </fieldset>
+                            <div id="search-result">
+                                <div id="name"></div>
+                                <div id="text-in"></div>
+                                <div id="graph-in"></div>
+                                <div id="society-in"></div>
+                                <!--分别是下面script中的nameResult、text_in、graph_in、society_in-->
+                            </div>
+                            <!--这个script只是一个在本地页面显示的例子，可以放到更下面的div下，根据我的格式往html网页里填写表单内容即可-->
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var xValue = localStorage.getItem('xValue');
+    if(xValue != null){
+        x = parseInt(xValue);
+    }
+
+    const form = document.querySelector('form');//form是格式<form></form>
+    const nameResult = document.querySelector('#name')//剩下的都是id
+    const text_in = document.querySelector('#text-in');
+    const graph_in = document.querySelector('#graph-in');
+    const society_in = document.querySelector('#society-in');
+    //nameResult、text_in、graph_in、society_in是上面几个div的象征，要往里面插入内容
+    const searchResult = document.querySelector('#search-result');
+    //这个是包含以上4个的大div
+    const textCheckbox = document.querySelector('#是否选择文本');
+    const graphCheckbox = document.querySelector('#是否选择图像');
+    const societyCheckbox = document.querySelector('#是否选择社交网络');
+    //三个checkbox的结果，其中的.checked就是值（true/false）
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        const searchValue = document.querySelector('#search').value;
+        if(searchValue === '余霜YSCandice'){
+            x = 1;
+        } else if(searchValue === '我是F1兵哥'){
+            x = 2;
+        } else if(searchValue === '空中的士马宏'){
+            x = 3;
+        } else{
+            x = 0;
+        }
+        console.log(x);
+        // 搜索框中输入的内容，在我们这里就是用户名
+        // 模拟搜索结果
+        nameResult.innerHTML = `<p>姓名：${searchValue}</p>`;
+        text_in.innerHTML = `<p>是否选择文本：${textCheckbox.checked}</p>`;
+        graph_in.innerHTML = `<p>是否选择图像：${graphCheckbox.checked}</p>`;
+        society_in.innerHTML = `<p>是否选择社交网络：${societyCheckbox.checked}</p>`;
+        //写操作，通过js代码在html中写入内容
+        localStorage.setItem('xValue',x);
+        location.reload();
+    });
+</script>
+<script>
+    const TouXiang = document.querySelector('#头像');
+    const ZhuYe = document.querySelector('#主页信息');
+    const QiTa = document.querySelector('#所有信息');
+    const GaiLan = document.querySelector('#信息概览');
+    if(x === 1){
+        TouXiang.innerHTML = `<img src="images/yushuang.jpg" alt="图片">`;
+        ZhuYe.innerHTML = `<p>余霜YSCandice<br>英雄联盟官方主持人<br>粉丝：6234000<br>关注：1771</p>`;
+        QiTa.innerHTML = `<p>身份信息：英雄联盟官方主持人<br>通讯信息：ywy20086821(商务合作)<br>位置信息：上海、英国<br>组织信息：电竞行业<br>其他信息：恋爱关系(管泽元)<br></p>`;
+        GaiLan.innerHTML = '<p class="layuimini-notice-title">信息概览:共有229条信息</p><p class="layuimini-notice-title">文本信息:共有35条风险博文,80条安全博文</p><p class="layuimini-notice-title">图像信息:共有24条风险图像,90条安全图像</p>';
+    } else if(x === 2){
+        TouXiang.innerHTML = `<img src="images/F1.png" alt="图片">`;
+        ZhuYe.innerHTML = `<p>我是F1兵哥<br>五星体育首席主持人<br>粉丝：507000<br>关注：191</p>`;
+        QiTa.innerHTML = `<p>身份信息：五星体育首席主持人<br>通讯信息：待补充<br>位置信息：上海<br>组织信息：五星体育<br></p>`;
+        GaiLan.innerHTML = '<p class="layuimini-notice-title">信息概览:共有182条信息</p><p class="layuimini-notice-title">文本信息:共有25条风险博文,80条安全博文</p><p class="layuimini-notice-title">图像信息:共有11条风险图像,66条安全图像</p>';
+    } else if(x === 3){
+        TouXiang.innerHTML = `<img src="images/plane.png" alt="图片">`;
+        ZhuYe.innerHTML = `<p>空中的士马宏<br>知名航空博主 深圳天翊商务航空有限公司 运控总监<br>粉丝：962000<br>关注：350</p>`;
+        QiTa.innerHTML = `<p>身份信息：运控总监<br>通讯信息：jtzx12328@jtys.sz.gov.cn<br>位置信息：北京<br>组织信息：深圳天翊商务航空有限公司<br></p>`;
+        GaiLan.innerHTML = '<p class="layuimini-notice-title">信息概览:共有269条信息</p>\n<p class="layuimini-notice-title">文本信息:共有65条风险博文,90条安全博文</p><p class="layuimini-notice-title">图像信息:共有44条风险图像,70条安全图像</p>';
+    } else{
+        ZhuYe.innerHTML = `<p>你是来捣乱的吧</p>`;
+        QiTa.innerHTML = `<p>你是来捣乱的吧</p>`;
+        GaiLan.innerHTML = '<p class="layuimini-notice-title">你是来捣乱的吧</p>';
+    }
+    //如果需要更改信息，就在这里
+</script>
+<script>
+    //import * as echarts1 from 'node_modules/echarts';
+    console.log('222222222')
+    layui.use(['layer','echarts'], function () {
+        console.log('33333')
+        var $ = layui.jquery,
+            layer = layui.layer,
+            echarts = layui.echarts
+            //echartsmy = layui.echartsmy;
+            console.log('11111')
+        /**
+         * 查看公告信息
+         **/
+        $('body').on('click', '.layuimini-notice', function () {
+            var title = $(this).children('.layuimini-notice-title').text(),
+                noticeTime = $(this).children('.layuimini-notice-extra').text(),
+                content = $(this).children('.layuimini-notice-content').html();
+            var html = '<div style="padding:15px 20px; text-align:justify; line-height: 22px;border-bottom:1px solid #e2e2e2;background-color: #2f4056;color: #ffffff">\n' +
+                '<div style="text-align: center;margin-bottom: 20px;font-weight: bold;border-bottom:1px solid #718fb5;padding-bottom: 5px"><h4 class="text-danger">' + title + '</h4></div>\n' +
+                '<div style="font-size: 12px">' + content + '</div>\n' +
+                '</div>\n';
+            parent.layer.open({
+                type: 1,
+                title: '数据统计' + '<span style="float: right;right: 1px;font-size: 12px;color: #b1b3b9;margin-top: 1px">' + noticeTime + '</span>',
+                area: '300px;',
+                shade: 0.8,
+                id: 'layuimini-notice',
+                btn: ['查看', '取消'],
+                btnAlign: 'c',
+                moveType: 1,
+                content: html,
+                success: function (layero) {
+                    var btn = layero.find('.layui-layer-btn');
+                    btn.find('.layui-layer-btn0').attr({
+                        target: '_blank'
+                    });
+                }
+            });
+        });
+
+       
+        var myChart = echarts.init(document.getElementById('echarts-relation'), 'walden');
+        console.log('aaa')
+        var filename1 = `test_network${x}.json`
+        var option;
+        $.getJSON(
+        filename1,
+        function (json) {
+            option = {
+                animationDurationUpdate: 1500,
+                animationEasingUpdate: 'quinticInOut',
+                series: [
+                {
+                    type: 'graph',
+                    layout: 'none',
+                    // progressiveThreshold: 700,
+                    data: json.nodes.map(function (node) {
+                    return {
+                        x: node.x,
+                        y: node.y,
+                        id: node.id,
+                        name: node.label,
+                        symbolSize: node.size,
+                        itemStyle: {
+                        color: node.color
+                        }
+                    };
+                    }),
+                    edges: json.edges.map(function (edge) {
+                    return {
+                        source: edge.sourceID,
+                        target: edge.targetID
+                    };
+                    }),
+                    emphasis: {
+                    focus: 'adjacency',
+                    label: {
+                        position: 'right',
+                        show: true
+                    }
+                    },
+                    roam: true,
+                    lineStyle: {
+                    width: 0.5,
+                    curveness: 0.3,
+                    opacity: 0.7
+                    }
+                }
+                ]
+            }
+            
+            console.log(option)
+            myChart.hideLoading();
+            myChart.setOption(
+            (option),
+            true
+            );
+        }
+        );
+        
+        //myChart.setOption(option);
+        
+        /**
+         * 玫瑰图表
+         */
+        var filename2 = `test_graph${x}.json`
+        fetch(filename2)  
+            .then((response) => response.json())  
+            .then((json) => {  
+                const echartsPies = echarts.init(document.getElementById('echarts-pies'), 'walden');  
+            
+                const optionPies = {  
+                title: {  
+                    text: '信息类型',  
+                    left: 'center',  
+                },  
+                tooltip: {  
+                    trigger: 'item',  
+                    formatter: '{a} <br/>{b} : {c} ({d}%)',  
+                },  
+                legend: {  
+                    orient: 'vertical',  
+                    left: 'left',  
+                    data: json.data.map((item) => item.name),  
+                },  
+                series: [  
+                    {  
+                    name: '信息类型',  
+                    type: 'pie',  
+                    radius: '55%',  
+                    center: ['50%', '60%'],  
+                    roseType: 'radius',  
+                    data: json.data,  
+                    emphasis: {  
+                        itemStyle: {  
+                        shadowBlur: 10,  
+                        shadowOffsetX: 0,  
+                        shadowColor: 'rgba(0, 0, 0, 0.5)',  
+                        },  
+                    },  
+                    },  
+                ],  
+                };  
+                echartsPies.setOption(optionPies);  
+            });  
+    });
+</script>
