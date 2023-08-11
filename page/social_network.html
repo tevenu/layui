@@ -12,10 +12,11 @@
             echarts = layui.echarts
             
         var myChart = echarts.init(document.getElementById('echarts-relation'), 'walden');
-        var filename1 = `test_network${x}.json`
+        var username = localStorage.getItem('username');  // 获取用户名
+        var network_file = username + `_network.json`
         var option;
         $.getJSON(
-        filename1,
+        network_file,
         function (json) {
             option = {
                 animationDurationUpdate: 1500,
