@@ -202,7 +202,7 @@
 </style>
 
 <div class="layuimini-container layuimini-page-anim" id="container">
-
+    <!-- 存放后端传输过来的前端代码的容器 -->
 </div>
 
 <script>
@@ -221,7 +221,7 @@
     }
 
     function drawEchart() {
-        console.log('222222222')
+        var username = localStorage.getItem('username');  // 获取用户名
         layui.use(['layer', 'echarts'], function () {
             console.log('33333')
             var $ = layui.jquery,
@@ -261,11 +261,10 @@
 
 
             var myChart = echarts.init(document.getElementById('echarts-relation'), 'walden');
-            console.log('aaa')
-            var filename1 = `test_network${x}.json`
+            var network_file = username + `_network.json`
             var option;
             $.getJSON(
-                filename1,
+                network_file,
                 function (json) {
                     option = {
                         animationDurationUpdate: 1500,
@@ -324,10 +323,11 @@
             /**
              * 玫瑰图表
              */
-            var filename2 = `../test_graph1.json`
-            fetch(filename2)
-                .then((response) => response.json())
-                .then((json) => {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'http://127.0.0.1:5000/count?user=' + localStorage.getItem('username'), true);
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    var json = JSON.parse(xhr.responseText);
                     const echartsPies = echarts.init(document.getElementById('echarts-pies'), 'walden');
 
                     const optionPies = {
@@ -363,9 +363,11 @@
                         ],
                     };
                     echartsPies.setOption(optionPies);
-                });
+                }
+            }
+            xhr.send();
         });
-    }
+    };
 
     function drawSearchForm() {
         const form = document.querySelector('form');//form是格式<form></form>
@@ -384,7 +386,7 @@
         form.addEventListener('submit', function (event) {
             event.preventDefault();
             // 搜索框中输入的内容，在我们这里就是用户名
-            localStorage.setItem('username', document.querySelector('#search').value); 
+            localStorage.setItem('username', document.querySelector('#search').value);
             location.reload();
         });
     }
