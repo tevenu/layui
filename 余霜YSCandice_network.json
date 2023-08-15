@@ -1,373 +1,375 @@
 {
   "nodes": [
     {
-      "color": "#673AB7",
+      "color": "#B71C1C",
       "label": "罗云熙Leo 准社会关系",
       "attributes": {},
-      "y": -911.2327066853496,
-      "x": -295.0975678700877,
+      "y": 367.79747229767145,
+      "x": 144.97956101223485,
       "id": "罗云熙Leo",
-      "size": 4.331183353294689
+      "size": 27.388945040986798
     },
     {
-      "color": "#009688",
+      "color": "#607D8B",
       "label": "Bunny小课堂 准社会关系",
       "attributes": {},
-      "y": 599.4530950592516,
-      "x": 1226.9130009112928,
+      "y": 219.25880447965415,
+      "x": 132.30249875266577,
       "id": "Bunny小课堂",
-      "size": 9.625838929301267
+      "size": 33.26408623285929
     },
     {
       "color": "#1B5E20",
       "label": "解说Kitty 组织关系",
       "attributes": {},
-      "y": -41.74526602388414,
-      "x": 1022.087458494716,
+      "y": 700.3213493747103,
+      "x": -305.5658730705377,
       "id": "解说Kitty",
-      "size": 12.216980855205271
+      "size": 17.782365186104833
     },
     {
-      "color": "#03A9F4",
+      "color": "#E65100",
       "label": "瞳夕TXQQ 组织关系",
       "attributes": {},
-      "y": -459.74896884236125,
-      "x": 1232.3438589705333,
+      "y": 17.260770905595678,
+      "x": 120.21002014586838,
       "id": "瞳夕TXQQ",
-      "size": 13.6885183605637173
+      "size": 26.51415558991036
     },
     {
-      "color": "#1976D2",
+      "color": "#1A237E",
       "label": "心态爆炸的大龄姨母 准社会关系",
       "attributes": {},
-      "y": 288.10486010239697,
-      "x": 1153.4379133521375,
+      "y": -392.6674280433358,
+      "x": -1406.55118543928,
       "id": "心态爆炸的大龄姨母",
-      "size": 6.87576052930737
+      "size": 11.367673885048998
     },
     {
-      "color": "#8BC34A",
+      "color": "#01579B",
       "label": "女足王霜 准社会关系",
       "attributes": {},
-      "y": 261.9935373231249,
-      "x": -69.0919016375251,
+      "y": 434.39156224255794,
+      "x": -1229.1924764218388,
       "id": "女足王霜",
-      "size": 6.71450789113068
+      "size": 12.114844625460771
     },
     {
-      "color": "#F44336",
+      "color": "#009688",
       "label": "狂很子老 准社会关系",
       "attributes": {},
-      "y": -26.44237720625472,
-      "x": -193.840416577513,
+      "y": -33.01660448343546,
+      "x": -696.5741906082465,
       "id": "狂很子老",
-      "size": 3.0582677845609654
-    },
-    {
-      "color": "#E65100",
-      "label": "LNG_Hang 组织关系",
-      "attributes": {},
-      "y": 421.6750378970248,
-      "x": 1014.1912271691353,
-      "id": "LNG_Hang",
-      "size": 5.921362625109624
-    },
-    {
-      "color": "#FF6F00",
-      "label": "方从游中来 社会关系",
-      "attributes": {},
-      "y": 173.73520550116018,
-      "x": 1214.8957505828266,
-      "id": "方从游中来",
-      "size": 1.24580006057573
-    },
-    {
-      "color": "#BF360C",
-      "label": "Ale-胡嘉乐 组织关系",
-      "attributes": {},
-      "y": 943.5044423095014,
-      "x": -1199.7102418341801,
-      "id": "Ale-胡嘉乐",
-      "size": 10.42305636291088
-    },
-    {
-      "color": "#BF360C",
-      "label": "解说瓜瓜 组织关系",
-      "attributes": {},
-      "y": 151.80974369964883,
-      "x": 1413.6564319351833,
-      "id": "解说瓜瓜",
-      "size": 9.024558199741305
-    },
-    {
-      "color": "#827717",
-      "label": "石头赶路ing 组织关系",
-      "attributes": {},
-      "y": 493.2021200483475,
-      "x": -981.2644873437042,
-      "id": "石头赶路ing",
-      "size": 16.361594733445465
-    },
-    {
-      "color": "#FF6F00",
-      "label": "管泽元 浪漫关系",
-      "attributes": {},
-      "y": 503.10785494430115,
-      "x": 107.44332522953891,
-      "id": "管泽元",
-      "size": 19.49291439251024
-    },
-    {
-      "color": "#FF9800",
-      "label": "彭立勋 组织关系",
-      "attributes": {},
-      "y": 198.25170414190166,
-      "x": 974.318214944361,
-      "id": "彭立勋",
-      "size": 12.4482332932513122
-    },
-    {
-      "color": "#CDDC39",
-      "label": "LNG-scout 组织关系",
-      "attributes": {},
-      "y": -626.9343011703684,
-      "x": 133.48407402179532,
-      "id": "LNG-scout",
-      "size": 17.892959182247781
-    },
-    {
-      "color": "#0D47A1",
-      "label": "白宇WHITE 准社会关系",
-      "attributes": {},
-      "y": -793.6899429716777,
-      "x": 1483.4343911175797,
-      "id": "白宇WHITE",
-      "size": 4.703336803101056
-    },
-    {
-      "color": "#E91E63",
-      "label": "ssenming 准社会关系",
-      "attributes": {},
-      "y": 102.01476232612731,
-      "x": 1228.6935786305799,
-      "id": "ssenming",
-      "size": 16.932705538578212
-    },
-    {
-      "color": "#9E9E9E",
-      "label": "我是郭杰瑞 准社会关系",
-      "attributes": {},
-      "y": -270.36105501188024,
-      "x": 121.35530659506298,
-      "id": "我是郭杰瑞",
-      "size": 8.159757233926559
-    },
-    {
-      "color": "#E65100",
-      "label": "ikussuki 社会关系",
-      "attributes": {},
-      "y": -236.51444009177646,
-      "x": -556.8796036085329,
-      "id": "ikussuki",
-      "size": 5.180986117860382
-    },
-    {
-      "color": "#212121",
-      "label": "解说王淞 组织关系",
-      "attributes": {},
-      "y": -851.7881824470377,
-      "x": -863.3940724372266,
-      "id": "解说王淞",
-      "size": 12.239388158654148
-    },
-    {
-      "color": "#1976D2",
-      "label": "解说Kinko人 组织关系",
-      "attributes": {},
-      "y": 616.0361393642911,
-      "x": 1496.3908705581184,
-      "id": "解说Kinko人",
-      "size": 3.7848281278227836
-    },
-    {
-      "color": "#263238",
-      "label": "朱一龙",
-      "attributes": {},
-      "y": -330.4789321971431,
-      "x": -575.2025373850047,
-      "id": "朱一龙",
-      "size": 3.400778174440191
-    },
-    {
-      "color": "#1976D2",
-      "label": "小米粥 社会关系",
-      "attributes": {},
-      "y": 424.20561672831786,
-      "x": -1234.8310536631172,
-      "id": "小米粥",
-      "size": 5.1458732736102424
-    },
-    {
-      "color": "#880E4F",
-      "label": "年糕糕呀 ",
-      "attributes": {},
-      "y": -865.7912623217524,
-      "x": 495.97072365900476,
-      "id": "年糕糕呀",
-      "size": 3.610922724769531
+      "size": 22.131908394287954
     },
     {
       "color": "#8BC34A",
-      "label": "陈欢 准社会关系",
+      "label": "LNG_Hang 组织关系",
       "attributes": {},
-      "y": 111.16933504331632,
-      "x": -1482.3997459583743,
-      "id": "陈欢",
-      "size": 5.753654787414612
-    },
-    {
-      "color": "#4CAF50",
-      "label": "新浪游戏 组织关系",
-      "attributes": {},
-      "y": 220.45101418488935,
-      "x": 780.566662441257,
-      "id": "新浪游戏",
-      "size": 12.92135271702429
-    },
-    {
-      "color": "#E65100",
-      "label": "解说Zonic 组织关系",
-      "attributes": {},
-      "y": 467.07444813028883,
-      "x": 195.12305308030727,
-      "id": "解说Zonic",
-      "size": 7.031204660347013
-    },
-    {
-      "color": "#FF9800",
-      "label": "雨说体育徐静雨 准社会关系",
-      "attributes": {},
-      "y": -629.4367906227963,
-      "x": 1195.2655440201247,
-      "id": "雨说体育徐静雨",
-      "size": 8.842512451259786
-    },
-    {
-      "color": "#F44336",
-      "label": "楼盘黑衣人 社会关系",
-      "attributes": {},
-      "y": 638.0269898745089,
-      "x": -768.5111454598633,
-      "id": "楼盘黑衣人",
-      "size": 2.678072775263587
-    },
-    {
-      "color": "#9E9E9E",
-      "label": "YeGodzz 组织关系",
-      "attributes": {},
-      "y": -659.6319107251429,
-      "x": 1241.7356691469467,
-      "id": "YeGodzz",
-      "size": 8.411838117125985
-    },
-    {
-      "color": "#F57F17",
-      "label": "圆某人和四某人 准社会关系",
-      "attributes": {},
-      "y": -936.6905631775467,
-      "x": 1250.981913407085,
-      "id": "圆某人和四某人",
-      "size": 12.024925450245586
-    },
-    {
-      "color": "#FF6F00",
-      "label": "英超联赛 准社会关系",
-      "attributes": {},
-      "y": -855.3849110093419,
-      "x": 494.49855893836775,
-      "id": "英超联赛",
-      "size": 4.23060930750912
-    },
-    {
-      "color": "#F57F17",
-      "label": "不能吃甜辣 准社会关系",
-      "attributes": {},
-      "y": 285.2363813468444,
-      "x": -435.4128783227343,
-      "id": "不能吃甜辣",
-      "size": 8.571463679137132
-    },
-    {
-      "color": "#2196F3",
-      "label": "张路评球 准社会关系",
-      "attributes": {},
-      "y": 152.15018303628358,
-      "x": 566.6979403875912,
-      "id": "张路评球",
-      "size": 7.19111766989187
-    },
-    {
-      "color": "#3E2723",
-      "label": "Wink0v0 组织关系",
-      "attributes": {},
-      "y": 669.7188179554846,
-      "x": -1009.1453100811598,
-      "id": "Wink0v0",
-      "size": 12.54043100375902
-    },
-    {
-      "color": "#0D47A1",
-      "label": "AKUM 组织关系",
-      "attributes": {},
-      "y": 435.25804937409634,
-      "x": -1115.2338957209254,
-      "id": "AKUM",
-      "size": 14.795208922258205
-    },
-    {
-      "color": "#4A148C",
-      "label": "早安没吃饱 组织关系",
-      "attributes": {},
-      "y": 100.47357746916282,
-      "x": 864.9748229957904,
-      "id": "早安没吃饱",
-      "size": 0.7561114255117429
-    },
-    {
-      "color": "#795548",
-      "label": "AkiXXXL 组织关系",
-      "attributes": {},
-      "y": -21.888349367829505,
-      "x": 251.48682251402124,
-      "id": "AkiXXXL",
-      "size": 3.902126664461528
-    },
-    {
-      "color": "#3F51B5",
-      "label": "曼城足球俱乐部 组织关系",
-      "attributes": {},
-      "y": -764.0460664199327,
-      "x": -1080.8646626250963,
-      "id": "曼城足球俱乐部",
-      "size": 5.734596503434121
+      "y": -565.65036292725,
+      "x": 1404.33666437205,
+      "id": "LNG_Hang",
+      "size": 10.548580946659674
     },
     {
       "color": "#311B92",
-      "label": "默离 组织关系",
+      "label": "方从游中来 社会关系",
       "attributes": {},
-      "y": -110.44130515463598,
-      "x": 1240.079247833154,
-      "id": "默离",
-      "size": 6.00010464342232
+      "y": -951.0728198657503,
+      "x": 823.0597475894833,
+      "id": "方从游中来",
+      "size": 11.49883883541741
     },
     {
-      "color": "#FF5722",
-      "label": "余霜YSCandice 本人",
+      "color": "#FFC107",
+      "label": "Ale-胡嘉乐 组织关系",
       "attributes": {},
+      "y": -521.8830418037901,
+      "x": -130.19274444660846,
+      "id": "Ale-胡嘉乐",
+      "size": 23.76254669742004
+    },
+    {
+      "color": "#006064",
+      "label": "解说瓜瓜 组织关系",
+      "attributes": {},
+      "y": 595.8160361899988,
+      "x": 1345.4126591223912,
+      "id": "解说瓜瓜",
+      "size": 10.678153761764076
+    },
+    {
+      "color": "#827717",
+      "label": "石头赶路ing 准社会关系",
+      "attributes": {},
+      "y": -756.7752839763344,
+      "x": -564.9342424447764,
+      "id": "石头赶路ing",
+      "size": 14.520451688483766
+    },
+    {
+      "color": "#1A237E",
+      "label": "管泽元 浪漫关系",
+      "attributes": {},
+      "y": 750.7168015257528,
+      "x": -971.9271587254394,
+      "id": "管泽元",
+      "size": 51.777764179086123
+    },
+    {
+      "color": "#F44336",
+      "label": "彭立勋 组织关系",
+      "attributes": {},
+      "y": -470.3177008965582,
+      "x": 28.1027264879433,
+      "id": "彭立勋",
+      "size": 27.826615733549684
+    },
+    {
+      "color": "#311B92",
+      "label": "LNG-scout 准社会关系",
+      "attributes": {},
+      "y": 687.8104935296296,
+      "x": -1003.000589528236,
+      "id": "LNG-scout",
+      "size": 11.95708220727281
+    },
+    {
+      "color": "#F57F17",
+      "label": "白宇WHITE 社会关系",
+      "attributes": {},
+      "y": -938.8882147606819,
+      "x": -1331.070637718703,
+      "id": "白宇WHITE",
+      "size": 9.36344018065463
+    },
+    {
+      "color": "#2196F3",
+      "label": "ssenming 准社会关系",
+      "attributes": {},
+      "y": -900.8611543237168,
+      "x": 444.2867893013961,
+      "id": "ssenming",
+      "size": 14.325433033527625
+    },
+    {
+      "color": "#E65100",
+      "label": "我是郭杰瑞 准社会关系",
+      "attributes": {},
+      "y": -219.89972857771068,
+      "x": 579.9286942260046,
+      "id": "我是郭杰瑞",
+      "size": 20.836312530070686
+    },
+    {
+      "color": "#03A9F4",
+      "label": "ikussuki 社会关系",
+      "attributes": {},
+      "y": -230.3923248544702,
+      "x": 508.0242634467329,
+      "id": "ikussuki",
+      "size": 21.9603265244985
+    },
+    {
+      "color": "#E91E63",
+      "label": "解说王淞 组织关系",
+      "attributes": {},
+      "y": 920.5298319038768,
+      "x": 1142.824041400606,
+      "id": "解说王淞",
+      "size": 10.148765173744032
+    },
+    {
+      "color": "#E65100",
+      "label": "解说Kinko人 组织关系",
+      "attributes": {},
+      "y": -782.2402458135726,
+      "x": 968.8801550724379,
+      "id": "解说Kinko人",
+      "size": 11.621850636395303
+    },
+    {
+      "color": "#263238",
+      "label": "朱一龙 准社会关系",
+      "attributes": {},
+      "y": 275.86300390100246,
+      "x": -307.2213563521966,
+      "id": "朱一龙",
+      "size": 25.430167553027804
+    },
+    {
+      "color": "#607D8B",
+      "label": "小米粥 准社会关系",
+      "attributes": {},
+      "y": -121.82832792588135,
+      "x": 473.18712160267523,
+      "id": "小米粥",
+      "size": 25.12523801700278
+    },
+    {
+      "color": "#006064",
+      "label": "年糕糕呀 社会关系",
+      "attributes": {},
+      "y": -532.0356761418338,
+      "x": -889.1549050370671,
+      "id": "年糕糕呀",
+      "size": 13.727283821013883
+    },
+    {
+      "color": "#1976D2",
+      "label": "陈欢 准社会关系",
+      "attributes": {},
+      "y": -564.0214717973595,
+      "x": 1051.5656326881694,
+      "id": "陈欢",
+      "size": 12.403333968730246
+    },
+    {
+      "color": "#827717",
+      "label": "新浪游戏 组织关系",
+      "attributes": {},
+      "y": 35.07340566050948,
+      "x": 828.7210053223107,
+      "id": "新浪游戏",
+      "size": 19.78169849679755
+    },
+    {
+      "color": "#E91E63",
+      "label": "解说Zonic 组织关系",
+      "attributes": {},
+      "y": -800.6507163793706,
+      "x": -1457.1512089377875,
+      "id": "解说Zonic",
+      "size": 9.406269053333133
+    },
+    {
+      "color": "#BF360C",
+      "label": "雨说体育徐静雨 准社会关系",
+      "attributes": {},
+      "y": -320.53077463904754,
+      "x": -582.8661942718729,
+      "id": "雨说体育徐静雨",
+      "size": 19.18064917773229
+    },
+    {
+      "color": "#9C27B0",
+      "label": "楼盘黑衣人 社会关系",
+      "attributes": {},
+      "y": -366.5768098021904,
+      "x": 476.0951378851994,
+      "id": "楼盘黑衣人",
+      "size": 20.117940254887827
+    },
+    {
+      "color": "#006064",
+      "label": "YeGodzz 组织关系",
+      "attributes": {},
+      "y": 355.2732431676802,
+      "x": -1335.406717821732,
+      "id": "YeGodzz",
+      "size": 11.957832124706822
+    },
+    {
+      "color": "#01579B",
+      "label": "圆某人和四某人 准社会关系",
+      "attributes": {},
+      "y": 154.8319243584342,
+      "x": -1430.1643054798503,
+      "id": "圆某人和四某人",
+      "size": 12.594482359312453
+    },
+    {
+      "color": "#1A237E",
+      "label": "英超联赛 准社会关系",
+      "attributes": {},
+      "y": -742.065015594672,
+      "x": -1451.636782553529,
+      "id": "英超联赛",
+      "size": 9.638733341608122
+    },
+    {
+      "color": "#004D40",
+      "label": "不能吃甜辣 社会关系",
+      "attributes": {},
+      "y": 312.7175805266402,
+      "x": 1079.818119201006,
+      "id": "不能吃甜辣",
+      "size": 13.94672362943647
+    },
+    {
+      "color": "#CDDC39",
+      "label": "张路评球 准社会关系",
+      "attributes": {},
+      "y": -487.7358425186833,
+      "x": 1228.6660158268464,
+      "id": "张路评球",
+      "size": 11.81250144031882
+    },
+    {
+      "color": "#FFEB3B",
+      "label": "Wink0v0 组织关系",
+      "attributes": {},
+      "y": -98.35523975759952,
+      "x": 295.7562203997684,
+      "id": "Wink0v0",
+      "size": 31.481726752873943
+    },
+    {
+      "color": "#F57F17",
+      "label": "AKUM 社会关系",
+      "attributes": {},
+      "y": -870.6756241558213,
+      "x": -1431.4960796609382,
+      "id": "AKUM",
+      "size": 9.25181770081007
+    },
+    {
+      "color": "#1976D2",
+      "label": "早安没吃饱 准社会关系",
+      "attributes": {},
+      "y": -785.7560279378138,
+      "x": -365.6083930856548,
+      "id": "早安没吃饱",
+      "size": 16.114846815622446
+    },
+    {
+      "color": "#03A9F4",
+      "label": "AkiXXXL 准社会关系",
+      "attributes": {},
+      "y": -166.0606677231848,
+      "x": -391.6970714228255,
+      "id": "AkiXXXL",
+      "size": 26.10263428650692
+    },
+    {
+      "color": "#607D8B",
+      "label": "曼城足球俱乐部 组织关系",
+      "attributes": {},
+      "y": 726.3172105868009,
+      "x": -1091.3544404898355,
+      "id": "曼城足球俱乐部",
+      "size": 11.273084537949064
+    },
+    {
+      "color": "#1B5E20",
+      "label": "默离 社会关系",
+      "attributes": {},
+      "y": 972.1846226552345,
+      "x": 754.3668297026384,
+      "id": "默离",
+      "size": 11.756122793210837
+    },
+    {
+      "color": "#E65100",
+      "label": "余霜YSCandice 本人",
+      "attributes": {
+        "关系": "本人"
+      },
       "y": 0,
       "x": 0,
       "id": "余霜YSCandice",
-      "size": 20
+      "size": 60
     }
   ],
   "edges": [
@@ -612,63 +614,160 @@
       "size": 1
     },
     {
-      "sourceID": "狂很子老",
+      "sourceID": "陈欢",
       "attributes": {},
-      "targetID": "解说Kinko人",
+      "targetID": "楼盘黑衣人",
       "size": 0.5
     },
     {
-      "sourceID": "瞳夕TXQQ",
+      "sourceID": "Bunny小课堂",
       "attributes": {},
-      "targetID": "狂很子老",
+      "targetID": "楼盘黑衣人",
       "size": 0.5
     },
     {
-      "sourceID": "我是郭杰瑞",
-      "attributes": {},
-      "targetID": "曼城足球俱乐部",
-      "size": 0.5
-    },
-    {
-      "sourceID": "年糕糕呀",
-      "attributes": {},
-      "targetID": "LNG-scout",
-      "size": 0.5
-    },
-    {
-      "sourceID": "朱一龙",
+      "sourceID": "解说瓜瓜",
       "attributes": {},
       "targetID": "圆某人和四某人",
       "size": 0.5
     },
     {
-      "sourceID": "女足王霜",
+      "sourceID": "心态爆炸的大龄姨母",
+      "attributes": {},
+      "targetID": "年糕糕呀",
+      "size": 0.5
+    },
+    {
+      "sourceID": "我是郭杰瑞",
       "attributes": {},
       "targetID": "LNG_Hang",
       "size": 0.5
     },
     {
-      "sourceID": "早安没吃饱",
+      "sourceID": "方从游中来",
+      "attributes": {},
+      "targetID": "陈欢",
+      "size": 0.5
+    },
+    {
+      "sourceID": "瞳夕TXQQ",
+      "attributes": {},
+      "targetID": "石头赶路ing",
+      "size": 0.5
+    },
+    
+    {
+      "sourceID": "朱一龙",
+      "attributes": {},
+      "targetID": "英超联赛",
+      "size": 0.5
+    },
+    {
+      "sourceID": "Ale-胡嘉乐",
+      "attributes": {},
+      "targetID": "ikussuki",
+      "size": 0.5
+    },
+    {
+      "sourceID": "ikussuki",
+      "attributes": {},
+      "targetID": "解说Kinko人",
+      "size": 0.5
+    },
+    {
+      "sourceID": "狂很子老",
+      "attributes": {},
+      "targetID": "解说瓜瓜",
+      "size": 0.5
+    },
+    {
+      "sourceID": "圆某人和四某人",
+      "attributes": {},
+      "targetID": "LNG_Hang",
+      "size": 0.5
+    },
+    {
+      "sourceID": "ikussuki",
+      "attributes": {},
+      "targetID": "不能吃甜辣",
+      "size": 0.5
+    },
+    {
+      "sourceID": "Wink0v0",
+      "attributes": {},
+      "targetID": "LNG_Hang",
+      "size": 0.5
+    },
+    {
+      "sourceID": "Wink0v0",
+      "attributes": {},
+      "targetID": "女足王霜",
+      "size": 0.5
+    },
+    {
+      "sourceID": "解说Kinko人",
+      "attributes": {},
+      "targetID": "解说瓜瓜",
+      "size": 0.5
+    },
+    {
+      "sourceID": "罗云熙Leo",
+      "attributes": {},
+      "targetID": "早安没吃饱",
+      "size": 0.5
+    },
+    {
+      "sourceID": "朱一龙",
+      "attributes": {},
+      "targetID": "AkiXXXL",
+      "size": 0.5
+    },
+    {
+      "sourceID": "石头赶路ing",
       "attributes": {},
       "targetID": "YeGodzz",
       "size": 0.5
     },
     {
-      "sourceID": "解说王淞",
+      "sourceID": "英超联赛",
       "attributes": {},
-      "targetID": "LNG-scout",
+      "targetID": "ikussuki",
       "size": 0.5
     },
     {
-      "sourceID": "解说Zonic",
+      "sourceID": "AKUM",
       "attributes": {},
-      "targetID": "解说Kitty",
+      "targetID": "圆某人和四某人",
+      "size": 0.5
+    },
+    {
+      "sourceID": "AKUM",
+      "attributes": {},
+      "targetID": "英超联赛",
+      "size": 0.5
+    },
+    {
+      "sourceID": "心态爆炸的大龄姨母",
+      "attributes": {},
+      "targetID": "张路评球",
+      "size": 0.5
+    },
+    {
+      "sourceID": "Wink0v0",
+      "attributes": {},
+      "targetID": "ssenming",
       "size": 0.5
     },
     {
       "sourceID": "白宇WHITE",
       "attributes": {},
-      "targetID": "Bunny小课堂",
+      "targetID": "AKUM",
+      "size": 0.5
+    },
+    {
+      "sourceID": "圆某人和四某人",
+      "attributes": {},
+      "targetID": "英超联赛",
       "size": 0.5
     },
     {
@@ -678,513 +777,57 @@
       "size": 0.5
     },
     {
-      "sourceID": "新浪游戏",
-      "attributes": {},
-      "targetID": "ssenming",
-      "size": 0.5
-    },
-    {
-      "sourceID": "AKUM",
-      "attributes": {},
-      "targetID": "管泽元",
-      "size": 0.5
-    },
-    {
-      "sourceID": "陈欢",
-      "attributes": {},
-      "targetID": "白宇WHITE",
-      "size": 0.5
-    },
-    {
-      "sourceID": "解说王淞",
-      "attributes": {},
-      "targetID": "默离",
-      "size": 0.5
-    },
-    {
-      "sourceID": "心态爆炸的大龄姨母",
-      "attributes": {},
-      "targetID": "朱一龙",
-      "size": 0.5
-    },
-    {
-      "sourceID": "女足王霜",
-      "attributes": {},
-      "targetID": "Ale-胡嘉乐",
-      "size": 0.5
-    },
-    {
-      "sourceID": "管泽元",
-      "attributes": {},
-      "targetID": "心态爆炸的大龄姨母",
-      "size": 0.5
-    },
-    {
-      "sourceID": "解说王淞",
-      "attributes": {},
-      "targetID": "LNG_Hang",
-      "size": 0.5
-    },
-    {
-      "sourceID": "彭立勋",
-      "attributes": {},
-      "targetID": "Bunny小课堂",
-      "size": 0.5
-    },
-    {
-      "sourceID": "曼城足球俱乐部",
-      "attributes": {},
-      "targetID": "解说Zonic",
-      "size": 0.5
-    },
-    {
-      "sourceID": "解说瓜瓜",
-      "attributes": {},
-      "targetID": "曼城足球俱乐部",
-      "size": 0.5
-    },
-    {
-      "sourceID": "管泽元",
-      "attributes": {},
-      "targetID": "解说Kitty",
-      "size": 0.5
-    },
-    {
-      "sourceID": "解说Zonic",
-      "attributes": {},
-      "targetID": "我是郭杰瑞",
-      "size": 0.5
-    },
-    {
-      "sourceID": "白宇WHITE",
-      "attributes": {},
-      "targetID": "ikussuki",
-      "size": 0.5
-    },
-    {
-      "sourceID": "朱一龙",
-      "attributes": {},
-      "targetID": "管泽元",
-      "size": 0.5
-    },
-    {
-      "sourceID": "罗云熙Leo",
-      "attributes": {},
-      "targetID": "LNG_Hang",
-      "size": 0.5
-    },
-    {
-      "sourceID": "陈欢",
-      "attributes": {},
-      "targetID": "ikussuki",
-      "size": 0.5
-    },
-    {
       "sourceID": "ssenming",
       "attributes": {},
-      "targetID": "雨说体育徐静雨",
-      "size": 0.5
-    },
-    {
-      "sourceID": "Wink0v0",
-      "attributes": {},
-      "targetID": "雨说体育徐静雨",
-      "size": 0.5
-    },
-    {
-      "sourceID": "狂很子老",
-      "attributes": {},
-      "targetID": "陈欢",
-      "size": 0.5
-    },
-    {
-      "sourceID": "解说王淞",
-      "attributes": {},
-      "targetID": "楼盘黑衣人",
-      "size": 0.5
-    },
-    {
-      "sourceID": "陈欢",
-      "attributes": {},
-      "targetID": "圆某人和四某人",
-      "size": 0.5
-    },
-    {
-      "sourceID": "朱一龙",
-      "attributes": {},
-      "targetID": "我是郭杰瑞",
-      "size": 0.5
-    },
-    {
-      "sourceID": "AKUM",
-      "attributes": {},
-      "targetID": "圆某人和四某人",
-      "size": 0.5
-    },
-    {
-      "sourceID": "曼城足球俱乐部",
-      "attributes": {},
-      "targetID": "LNG-scout",
-      "size": 0.5
-    },
-    {
-      "sourceID": "心态爆炸的大龄姨母",
-      "attributes": {},
-      "targetID": "Ale-胡嘉乐",
-      "size": 0.5
-    },
-    {
-      "sourceID": "曼城足球俱乐部",
-      "attributes": {},
-      "targetID": "AkiXXXL",
-      "size": 0.5
-    },
-    {
-      "sourceID": "ssenming",
-      "attributes": {},
-      "targetID": "ikussuki",
-      "size": 0.5
-    },
-    {
-      "sourceID": "张路评球",
-      "attributes": {},
-      "targetID": "狂很子老",
-      "size": 0.5
-    },
-    {
-      "sourceID": "解说Kinko人",
-      "attributes": {},
-      "targetID": "默离",
-      "size": 0.5
-    },
-    {
-      "sourceID": "石头赶路ing",
-      "attributes": {},
-      "targetID": "女足王霜",
-      "size": 0.5
-    },
-    {
-      "sourceID": "LNG-scout",
-      "attributes": {},
-      "targetID": "解说瓜瓜",
-      "size": 0.5
-    },
-    {
-      "sourceID": "小米粥",
-      "attributes": {},
-      "targetID": "我是郭杰瑞",
-      "size": 0.5
-    },
-    {
-      "sourceID": "曼城足球俱乐部",
-      "attributes": {},
-      "targetID": "白宇WHITE",
-      "size": 0.5
-    },
-    {
-      "sourceID": "AKUM",
-      "attributes": {},
-      "targetID": "YeGodzz",
-      "size": 0.5
-    },
-    {
-      "sourceID": "解说Kitty",
-      "attributes": {},
-      "targetID": "白宇WHITE",
-      "size": 0.5
-    },
-    {
-      "sourceID": "圆某人和四某人",
-      "attributes": {},
-      "targetID": "狂很子老",
-      "size": 0.5
-    },
-    {
-      "sourceID": "Wink0v0",
-      "attributes": {},
-      "targetID": "ssenming",
-      "size": 0.5
-    },
-    {
-      "sourceID": "彭立勋",
-      "attributes": {},
-      "targetID": "朱一龙",
-      "size": 0.5
-    },
-    {
-      "sourceID": "曼城足球俱乐部",
-      "attributes": {},
-      "targetID": "狂很子老",
-      "size": 0.5
-    },
-    {
-      "sourceID": "张路评球",
-      "attributes": {},
-      "targetID": "女足王霜",
-      "size": 0.5
-    },
-    {
-      "sourceID": "新浪游戏",
-      "attributes": {},
-      "targetID": "LNG_Hang",
-      "size": 0.5
-    },
-    {
-      "sourceID": "小米粥",
-      "attributes": {},
-      "targetID": "Wink0v0",
-      "size": 0.5
-    },
-    {
-      "sourceID": "陈欢",
-      "attributes": {},
-      "targetID": "Wink0v0",
-      "size": 0.5
-    },
-    {
-      "sourceID": "早安没吃饱",
-      "attributes": {},
-      "targetID": "罗云熙Leo",
-      "size": 0.5
-    },
-    {
-      "sourceID": "罗云熙Leo",
-      "attributes": {},
-      "targetID": "雨说体育徐静雨",
-      "size": 0.5
-    },
-    {
-      "sourceID": "YeGodzz",
-      "attributes": {},
-      "targetID": "LNG_Hang",
-      "size": 0.5
-    },
-    {
-      "sourceID": "早安没吃饱",
-      "attributes": {},
-      "targetID": "解说瓜瓜",
+      "targetID": "张路评球",
       "size": 0.5
     },
     {
       "sourceID": "Bunny小课堂",
       "attributes": {},
-      "targetID": "ssenming",
-      "size": 0.5
-    },
-    {
-      "sourceID": "Ale-胡嘉乐",
-      "attributes": {},
-      "targetID": "不能吃甜辣",
-      "size": 0.5
-    },
-    {
-      "sourceID": "瞳夕TXQQ",
-      "attributes": {},
-      "targetID": "解说Kitty",
-      "size": 0.5
-    },
-    {
-      "sourceID": "Wink0v0",
-      "attributes": {},
-      "targetID": "Ale-胡嘉乐",
+      "targetID": "默离",
       "size": 0.5
     },
     {
       "sourceID": "解说Zonic",
       "attributes": {},
-      "targetID": "罗云熙Leo",
+      "targetID": "年糕糕呀",
       "size": 0.5
     },
     {
-      "sourceID": "解说Kinko人",
+      "sourceID": "Ale-胡嘉乐",
       "attributes": {},
-      "targetID": "罗云熙Leo",
-      "size": 0.5
-    },
-    {
-      "sourceID": "ikussuki",
-      "attributes": {},
-      "targetID": "YeGodzz",
-      "size": 0.5
-    },
-    {
-      "sourceID": "Wink0v0",
-      "attributes": {},
-      "targetID": "解说Zonic",
-      "size": 0.5
-    },
-    {
-      "sourceID": "AKUM",
-      "attributes": {},
-      "targetID": "AkiXXXL",
-      "size": 0.5
-    },
-    {
-      "sourceID": "狂很子老",
-      "attributes": {},
-      "targetID": "早安没吃饱",
-      "size": 0.5
-    },
-    {
-      "sourceID": "彭立勋",
-      "attributes": {},
-      "targetID": "LNG_Hang",
-      "size": 0.5
-    },
-    {
-      "sourceID": "雨说体育徐静雨",
-      "attributes": {},
-      "targetID": "女足王霜",
-      "size": 0.5
-    },
-    {
-      "sourceID": "朱一龙",
-      "attributes": {},
-      "targetID": "曼城足球俱乐部",
+      "targetID": "管泽元",
       "size": 0.5
     },
     {
       "sourceID": "LNG-scout",
       "attributes": {},
-      "targetID": "狂很子老",
-      "size": 0.5
-    },
-    {
-      "sourceID": "默离",
-      "attributes": {},
-      "targetID": "YeGodzz",
-      "size": 0.5
-    },
-    {
-      "sourceID": "圆某人和四某人",
-      "attributes": {},
-      "targetID": "早安没吃饱",
-      "size": 0.5
-    },
-    {
-      "sourceID": "ikussuki",
-      "attributes": {},
-      "targetID": "Wink0v0",
-      "size": 0.5
-    },
-    {
-      "sourceID": "英超联赛",
-      "attributes": {},
-      "targetID": "管泽元",
-      "size": 0.5
-    },
-    {
-      "sourceID": "ssenming",
-      "attributes": {},
-      "targetID": "AkiXXXL",
-      "size": 0.5
-    },
-    {
-      "sourceID": "楼盘黑衣人",
-      "attributes": {},
-      "targetID": "圆某人和四某人",
-      "size": 0.5
-    },
-    {
-      "sourceID": "年糕糕呀",
-      "attributes": {},
-      "targetID": "Wink0v0",
-      "size": 0.5
-    },
-    {
-      "sourceID": "Ale-胡嘉乐",
-      "attributes": {},
-      "targetID": "楼盘黑衣人",
-      "size": 0.5
-    },
-    {
-      "sourceID": "AKUM",
-      "attributes": {},
-      "targetID": "石头赶路ing",
-      "size": 0.5
-    },
-    {
-      "sourceID": "不能吃甜辣",
-      "attributes": {},
-      "targetID": "Bunny小课堂",
-      "size": 0.5
-    },
-    {
-      "sourceID": "新浪游戏",
-      "attributes": {},
-      "targetID": "管泽元",
-      "size": 0.5
-    },
-    {
-      "sourceID": "Ale-胡嘉乐",
-      "attributes": {},
-      "targetID": "英超联赛",
-      "size": 0.5
-    },
-    {
-      "sourceID": "不能吃甜辣",
-      "attributes": {},
-      "targetID": "LNG-scout",
-      "size": 0.5
-    },
-    {
-      "sourceID": "石头赶路ing",
-      "attributes": {},
-      "targetID": "方从游中来",
-      "size": 0.5
-    },
-    {
-      "sourceID": "雨说体育徐静雨",
-      "attributes": {},
-      "targetID": "方从游中来",
-      "size": 0.5
-    },
-    {
-      "sourceID": "YeGodzz",
-      "attributes": {},
-      "targetID": "AkiXXXL",
-      "size": 0.5
-    },
-    {
-      "sourceID": "不能吃甜辣",
-      "attributes": {},
-      "targetID": "女足王霜",
-      "size": 0.5
-    },
-    {
-      "sourceID": "年糕糕呀",
-      "attributes": {},
       "targetID": "解说瓜瓜",
       "size": 0.5
     },
     {
-      "sourceID": "朱一龙",
-      "attributes": {},
-      "targetID": "雨说体育徐静雨",
-      "size": 0.5
-    },
-    {
-      "sourceID": "早安没吃饱",
-      "attributes": {},
-      "targetID": "方从游中来",
-      "size": 0.5
-    },
-    {
-      "sourceID": "解说Kinko人",
+      "sourceID": "张路评球",
       "attributes": {},
       "targetID": "曼城足球俱乐部",
       "size": 0.5
     },
     {
-      "sourceID": "LNG_Hang",
+      "sourceID": "狂很子老",
       "attributes": {},
-      "targetID": "解说Kinko人",
+      "targetID": "石头赶路ing",
       "size": 0.5
     },
     {
-      "sourceID": "英超联赛",
+      "sourceID": "新浪游戏",
       "attributes": {},
-      "targetID": "朱一龙",
+      "targetID": "解说瓜瓜",
+      "size": 0.5
+    },
+    {
+      "sourceID": "年糕糕呀",
+      "attributes": {},
+      "targetID": "LNG_Hang",
       "size": 0.5
     },
     {
@@ -1194,9 +837,15 @@
       "size": 0.5
     },
     {
-      "sourceID": "解说王淞",
+      "sourceID": "ssenming",
       "attributes": {},
-      "targetID": "管泽元",
+      "targetID": "狂很子老",
+      "size": 0.5
+    },
+    {
+      "sourceID": "Ale-胡嘉乐",
+      "attributes": {},
+      "targetID": "朱一龙",
       "size": 0.5
     },
     {
@@ -1206,9 +855,57 @@
       "size": 0.5
     },
     {
+      "sourceID": "小米粥",
+      "attributes": {},
+      "targetID": "女足王霜",
+      "size": 0.5
+    },
+    {
+      "sourceID": "英超联赛",
+      "attributes": {},
+      "targetID": "曼城足球俱乐部",
+      "size": 0.5
+    },
+    {
+      "sourceID": "AKUM",
+      "attributes": {},
+      "targetID": "默离",
+      "size": 0.5
+    },
+    {
+      "sourceID": "我是郭杰瑞",
+      "attributes": {},
+      "targetID": "白宇WHITE",
+      "size": 0.5
+    },
+    {
+      "sourceID": "雨说体育徐静雨",
+      "attributes": {},
+      "targetID": "曼城足球俱乐部",
+      "size": 0.5
+    },
+    {
+      "sourceID": "LNG-scout",
+      "attributes": {},
+      "targetID": "管泽元",
+      "size": 0.5
+    },
+    {
+      "sourceID": "瞳夕TXQQ",
+      "attributes": {},
+      "targetID": "张路评球",
+      "size": 0.5
+    },
+    {
+      "sourceID": "彭立勋",
+      "attributes": {},
+      "targetID": "解说Zonic",
+      "size": 0.5
+    },
+    {
       "sourceID": "解说Kitty",
       "attributes": {},
-      "targetID": "小米粥",
+      "targetID": "不能吃甜辣",
       "size": 0.5
     }
   ]
