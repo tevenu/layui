@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Search</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -17,19 +18,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 100%;
             margin: 0;
+            padding: 0;
+            font-weight: 500;
             font-family: 'Poppins', sans-serif;
-            background-color: #f1f1f1;
+            background-color: #ffffff;
             background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-        }
-
-        .container {
-            text-align: center;
-            padding: 60px;
-            background-color: rgba(255, 255, 255, 0.8);
-            border-radius: 10px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
@@ -58,51 +53,67 @@
             color: #34A853;
         }
 
-        input[type="text"] {
-            width: 80%;
-            font-size: 24px;
-            padding: 15px;
+        #container {
+            width: 500px;
+            height: 100vh;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div.search {padding: 30px 0;}
+
+        form {
+            position: relative;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        input, button {
             border: none;
-            border-radius: 30px;
-            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
             outline: none;
-            margin-bottom: 20px;
-            transition: box-shadow 0.3s;
         }
 
-        input[type="text"]:hover,
-        input[type="text"]:focus {
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        input {
+            width: 100%;
+            height: 42px;
+            padding-left: 13px;
         }
 
-        input[type="submit"] {
-            font-size: 18px;
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 4px;
+        button {
+            height: 42px;
+            width: 42px;
             cursor: pointer;
-            margin-top: 10px;
-            transition: background-color 0.3s;
+            position: absolute;
         }
 
-        input[type="submit"]:hover {
-            background-color: #45a049;
+        .searchBar input, .searchBar button {
+            border-radius: 42px;
+            background: #F9F0DA; 
+        }
+        .searchBar button {
+            top: 0;
+            right: 0;
+        }
+        .searchBar button:before {
+            content: "\f178";
+            font-family: FontAwesome;
+            font-size: 20px;
+            color: #5398bb;
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <h1><span>Pri</span><span>va</span><span>cy</span><span> Search</span></h1>
-        <form id="search-form">
-            <input type="text" id="search-input" placeholder="Search...">
-            <br>
-            <input type="submit" value="Search">
-        </form>
+    <div id="container">
+        <div class="search searchBar">
+            <h1><span>Pri</span><span>va</span><span>cy</span><span> Search</span></h1>
+            <form id="search-form">
+                <input id="search-input" type="text" placeholder="请输入您要搜索的内容...">
+                <button type="submit"></button>
+            </form>
+        </div>
     </div>
-
     <script>
         document.getElementById('search-form').addEventListener('submit', function (e) {
             e.preventDefault();
