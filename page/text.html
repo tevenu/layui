@@ -1,6 +1,23 @@
 <style>
     .layui-card {border:1px solid #f2f2f2;border-radius:5px;}
-    .right-card {border:1px solid #f2f2f2;border-radius:5px;height:200px;display:flex;flex-direction:column; align-items:center; padding-top: 100px; padding-bottom: 100px;}
+    .right-card {border:1px solid #f2f2f2;border-radius:5px;height:200px;display:flex;flex-direction:column; align-items:center; padding-top: 100px; padding-bottom: 100px;}  
+    .custom-right-card {  
+        border: 1px solid #f2f2f2;  
+        border-radius: 10px;  
+        height: 400px;  
+        display: flex;  
+        flex-direction: column;  
+        justify-content: flex-start;  
+        padding-left: 20px;  
+        padding-top: 20px;  
+    }  
+    .custom-right-card .subtle-text {  
+        font-size: 12px;  
+        color: #999;  
+        font-family: 'Arial', sans-serif;  
+    }
+</style>  
+
 </style>
 
 <div class="layuimini-container layuimini-page-anim">
@@ -73,10 +90,21 @@
                     }],
                     cols: [[
                         { type: "checkbox", width: 50 },
-                        { field: 'id', width: 200, title: 'ID', sort: true },
+                        { field: 'id', width: 150, title: 'ID', sort: true },
                         { field: 'time', width: 200, title: '时间', sort: true },
 
-                        { field: 'text', width: 400, title: '内容' },
+                        { field: 'text', width: 350, title: '文本' },
+                        { field: 'image',
+                            width: 100,
+                            title: '图片',
+                            templet: function (row) {
+                                var url = 'http://127.0.0.1:5500/layui/'+ row.image
+                                //var url = 'https://via.placeholder.com/100'
+                                console.log(url)
+                                console.log(row.id)
+                                return `<img src="${url}" width="auto" height="30">`;
+                            }
+                        },
                         { field: 'is_privacy', width: 180, title: '是否隐私', sort: true },
                         { field: 'information', width: 350, title: '信息检测' },
                         { title: '操作', minWidth: 100, toolbar: '#currentTableBar', align: "center" }
@@ -123,35 +151,59 @@
                 time: '时间：'+data.time,
                 is_privacy: '是否隐私: '+data.is_privacy,
                 text: '文本内容: '+data.text,
-                information: "隐私内容: "+data.information
+                information: "隐私内容: "+data.information,
+                image: data.image
             };
             if (obj.event === 'detail') {
                 var openWH = miniPage.getOpenWidthHeight();
-                const content = `
-                <div class="right-card";">
-                    <h3>${showdata.id}</h3>
-                    <h3>${showdata.time}</h3>
-                    <h3>${showdata.is_privacy}</h3>
-                    <p>${showdata.text}</p>
-                    <p>${showdata.information}</p>
-                </div>`;
+                const content = `  
+                <div class="layuimini-container layuimini-page-anim">  
+                    <div class="layuimini-main">  
+                        <div class="layui-row layui-col-space15">  
+                            <div class="layui-col-md6" style="display: flex; align-items: center; justify-content: center;">  
+                                <div class="layui-card" style="border: none; box-shadow: none;">  
+                                    <img src="http://127.0.0.1:5500/layui/${showdata.image}" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);" width="auto" height="400px">  
+                                </div>  
+                            </div>  
+                            <div class="layui-col-md6">  
+                                <div class="custom-right-card">  
+                                    <div class="subtle-text" style="margin-bottom: 20px; text-align: left;">  
+                                        <p>${showdata.is_privacy}</p>  
+                                        <p>${showdata.id}</p>  
+                                        <p>${showdata.time}</p>  
+                                    </div>  
+                                    <div>  
+                                        <p style="margin-bottom: 5px; font-size: 16px;">${showdata.text}</p>  
+                                        <p style="margin-bottom: 5px; font-size: 16px;">${showdata.information}</p>  
+                                    </div>  
+                                </div>  
+                            </div>  
+                        </div>  
+                    </div>  
+                </div>  
+                `;  
                 
-                var index = layer.open({
-                    title: '博文查看',
-                    type: 1,
-                    shade: 0.2,
-                    maxmin:true,
-                    shadeClose: true,
-                    area: ['800px','500px'],
-                    offset: 'auto',
-                    content: content,
-                });
+                var index = layer.open({  
+                    title: '图片查看',  
+                    type: 1,  
+                    shade: 0.2,  
+                    maxmin: true,  
+                    shadeClose: true,  
+                    skin: 'layui-layer-molv', // 添加这一行以应用 layui 内置的主题  
+                    area: ['800px', '500px'],  
+                    offset: 'auto',  
+                    content: content,  
+                    success: function(layero, index){  
+                        $(layero).find('.layui-layer-content').css('border-radius', '10px'); // 为弹出框内容添加圆角  
+                    }  
+                });  
+
+
                 $(window).on("resize", function () {
                     layer.full(index);
                 });
                 return false;
             } 
         });
-
     });
 </script>

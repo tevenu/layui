@@ -223,12 +223,10 @@
     function drawEchart() {
         var username = localStorage.getItem('username');  // 获取用户名
         layui.use(['layer', 'echarts'], function () {
-            console.log('33333')
             var $ = layui.jquery,
                 layer = layui.layer,
                 echarts = layui.echarts
-            //echartsmy = layui.echartsmy;
-            console.log('11111')
+            //echartsmy = layui.echartsmy;   
             /**
              * 查看公告信息
              **/
@@ -260,63 +258,75 @@
             });
 
 
-            var myChart = echarts.init(document.getElementById('echarts-relation'), 'walden');
-            var network_file = username + `_network.json`
-            var option;
-            $.getJSON(
-                network_file,
-                function (json) {
-                    option = {
-                        animationDurationUpdate: 1500,
-                        animationEasingUpdate: 'quinticInOut',
-                        series: [
-                            {
-                                type: 'graph',
-                                layout: 'none',
-                                // progressiveThreshold: 700,
-                                data: json.nodes.map(function (node) {
-                                    return {
-                                        x: node.x,
-                                        y: node.y,
-                                        id: node.id,
-                                        name: node.label,
-                                        symbolSize: node.size,
-                                        itemStyle: {
-                                            color: node.color
-                                        }
-                                    };
-                                }),
-                                edges: json.edges.map(function (edge) {
-                                    return {
-                                        source: edge.sourceID,
-                                        target: edge.targetID
-                                    };
-                                }),
-                                emphasis: {
-                                    focus: 'adjacency',
-                                    label: {
-                                        position: 'right',
-                                        show: true
-                                    }
-                                },
-                                roam: true,
-                                lineStyle: {
-                                    width: 0.5,
-                                    curveness: 0.3,
-                                    opacity: 0.7
-                                }
-                            }
-                        ]
-                    }
+            var myChart = echarts.init(document.getElementById('echarts-relation'), 'walden');  
+            var network_file = username + `_network.json`  
+            var option;  
+            $.getJSON(  
+                network_file,  
+                function (json) {  
+                    option = {  
+                        animationDurationUpdate: 1500,  
+                        animationEasingUpdate: 'quinticInOut',  
+                        legend: {  
+                            data: [  
+                                {name: '用户', icon: 'circle'},  
+                                {name: '具有社交关系', icon: 'line'}  
+                            ],  
+                            textStyle: {  
+                                fontSize: 12  
+                            },  
+                            top: 10,  
+                            left: 10  
+                        },  
+                        series: [  
+                            {  
+                                type: 'graph',  
+                                layout: 'none',  
+                                // progressiveThreshold: 700,  
+                                data: json.nodes.map(function (node) {  
+                                    return {  
+                                        x: node.x,  
+                                        y: node.y,  
+                                        id: node.id,  
+                                        name: node.label,  
+                                        symbolSize: node.size,  
+                                        itemStyle: {  
+                                            color: node.color  
+                                        }  
+                                    };  
+                                }),  
+                                edges: json.edges.map(function (edge) {  
+                                    return {  
+                                        source: edge.sourceID,  
+                                        target: edge.targetID  
+                                    };  
+                                }),  
+                                emphasis: {  
+                                    focus: 'adjacency',  
+                                    label: {  
+                                        position: 'right',  
+                                        show: true  
+                                    }  
+                                },  
+                                roam: true,  
+                                lineStyle: {  
+                                    width: 0.5,  
+                                    curveness: 0.3,  
+                                    opacity: 0.7  
+                                }  
+                            }  
+                        ]  
+                    }  
+            
+                    console.log(option)  
+                    myChart.hideLoading();  
+                    myChart.setOption(  
+                        (option),  
+                        true  
+                    );  
+                }  
+            );  
 
-                    console.log(option)
-                    myChart.hideLoading();
-                    myChart.setOption(
-                        (option),
-                        true
-                    );
-                }
-            );
 
             //myChart.setOption(option);
 
