@@ -16,6 +16,15 @@
         color: #999;  
         font-family: 'Arial', sans-serif;  
     }
+    .custom-row {
+        display: flex;
+        align-items: flex-start; /* 左右内容垂直顶部对齐 */
+    }
+    .custom-left-col {
+        flex: 0 0 400px; /* 左侧固定宽度 */
+        max-width: 400px; /* 最大宽度 */
+        overflow-x: auto; /* 内容溢出时出现滚动条 */
+    }
 </style>  
 
 </style>
@@ -73,8 +82,9 @@
             form = layui.form,
             table = layui.table,
             miniPage = layui.miniPage;
+        var username = localStorage.getItem('username')
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'http://127.0.0.1:5000/text?user=' + localStorage.getItem('username'), true);
+        xhr.open('GET', 'http://127.0.0.1:5000/text?user=' + username, true);
         xhr.onload = function () {
             if (xhr.status === 200) {
                 var text = JSON.parse(xhr.responseText);
@@ -98,10 +108,9 @@
                             width: 100,
                             title: '图片',
                             templet: function (row) {
-                                var url = 'http://127.0.0.1:5500/layui/'+ row.image
+                                var url = row.image
                                 //var url = 'https://via.placeholder.com/100'
                                 console.log(url)
-                                console.log(row.id)
                                 return `<img src="${url}" width="auto" height="30">`;
                             }
                         },
@@ -159,10 +168,10 @@
                 const content = `  
                 <div class="layuimini-container layuimini-page-anim">  
                     <div class="layuimini-main">  
-                        <div class="layui-row layui-col-space15">  
-                            <div class="layui-col-md6" style="display: flex; align-items: center; justify-content: center;">  
+                        <div class="layui-row layui-col-space15 custom-row">  
+                            <div class="layui-col-md6 custom-left-col" style="display: flex; align-items: center; justify-content: center;">  
                                 <div class="layui-card" style="border: none; box-shadow: none;">  
-                                    <img src="http://127.0.0.1:5500/layui/${showdata.image}" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);" width="auto" height="400px">  
+                                    <img src="${showdata.image}" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);" width="auto">  
                                 </div>  
                             </div>  
                             <div class="layui-col-md6">  
