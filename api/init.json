@@ -1,7 +1,7 @@
 {
   "homeInfo": {
     "title": "首页",
-    "href": "page/welcome-1.html?t=1"
+    "href": "page/homepage.html"
   },
   "logoInfo": {
     "title": "Privacy",
@@ -17,7 +17,7 @@
       "child": [
         {
           "title": "主页",
-          "href": "page/welcome-1.html?t=1",
+          "href": "page/homepage.html",
           "icon": "fa fa-home",
           "target": "_self"
         },
