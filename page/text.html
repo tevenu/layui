@@ -1,31 +1,52 @@
 <style>
-    .layui-card {border:1px solid #f2f2f2;border-radius:5px;}
-    .right-card {border:1px solid #f2f2f2;border-radius:5px;height:200px;display:flex;flex-direction:column; align-items:center; padding-top: 100px; padding-bottom: 100px;}  
-    .custom-right-card {  
-        border: 1px solid #f2f2f2;  
-        border-radius: 10px;  
-        height: 400px;  
-        display: flex;  
-        flex-direction: column;  
-        justify-content: flex-start;  
-        padding-left: 20px;  
-        padding-top: 20px;  
-    }  
-    .custom-right-card .subtle-text {  
-        font-size: 12px;  
-        color: #999;  
-        font-family: 'Arial', sans-serif;  
+    .layui-card {
+        border: 1px solid #f2f2f2;
+        border-radius: 5px;
     }
+
+    .right-card {
+        border: 1px solid #f2f2f2;
+        border-radius: 5px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .custom-right-card {
+        border: 1px solid #f2f2f2;
+        border-radius: 10px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .custom-right-card .subtle-text {
+        font-size: 12px;
+        color: #999;
+        font-family: 'Arial', sans-serif;
+    }
+
     .custom-row {
         display: flex;
-        align-items: flex-start; /* 左右内容垂直顶部对齐 */
+        align-items: flex-start;
+        /* 左右内容垂直顶部对齐 */
     }
+
     .custom-left-col {
-        flex: 0 0 400px; /* 左侧固定宽度 */
-        max-width: 400px; /* 最大宽度 */
-        overflow-x: auto; /* 内容溢出时出现滚动条 */
+        flex: 0 0 400px;
+        /* 左侧固定宽度 */
+        max-width: 400px;
+        /* 最大宽度 */
+        overflow-x: auto;
+        /* 内容溢出时出现滚动条 */
     }
-</style>  
+</style>
 
 </style>
 
@@ -61,23 +82,23 @@
                             </div>
                         </div>
                         <div class="layui-inline">
-                            <button type="submit" class="layui-btn layui-btn-primary"  lay-submit lay-filter="data-search-btn"><i class="layui-icon"></i> 搜 索</button>
+                            <button type="submit" class="layui-btn layui-btn-primary" lay-submit
+                                lay-filter="data-search-btn"><i class="layui-icon"></i> 搜 索</button>
                         </div>
                     </div>
                 </form>
             </div>
         </fieldset>
         <table class="layui-hide" id="currentTableId" lay-filter="currentTableFilter"></table>
-
-        <script type="text/html" id="currentTableBar">
-            <a class="layui-btn layui-btn-normal layui-btn-xs data-count-edit" lay-event="detail">查看</a>
-        </script>
-
     </div>
 </div>
 
+<script type="text/html" id="currentTableBar">
+    <a class="layui-btn layui-btn-normal layui-btn-xs data-count-edit" lay-event="detail">查看</a>
+</script>
+
 <script>
-    layui.use(['form', 'table','miniPage','element'], function () {
+    layui.use(['form', 'table', 'miniPage', 'element'], function () {
         var $ = layui.jquery,
             form = layui.form,
             table = layui.table,
@@ -104,7 +125,8 @@
                         { field: 'time', width: 200, title: '时间', sort: true },
 
                         { field: 'text', width: 350, title: '文本' },
-                        { field: 'image',
+                        {
+                            field: 'image',
                             width: 100,
                             title: '图片',
                             templet: function (row) {
@@ -126,25 +148,36 @@
             }
         }
         xhr.send();
-        
+
 
         // 监听搜索操作
         form.on('submit(data-search-btn)', function (data) {
             var result = JSON.stringify(data.field);
-            layer.alert(result, {
-                title: '最终的搜索信息'
+            console.log(result)
+            // layer.alert(result, {
+            //     title: '确认搜索信息'
+            // });
+            $.ajax({
+                url: 'http://127.0.0.1:5000/text',  
+                type: 'GET',
+                data: {
+                    user: localStorage.getItem('username'),  // 添加用户信息
+                    searchParams: result  // 这里传递搜索条件数据
+                },
+                success: function (data) {
+                    // data 是后端返回的数据
+                    //执行搜索重载
+                    table.reload('currentTableId', {
+                        page: {
+                            curr: 1
+                        },
+                        where: {
+                            searchParams: result
+                        },
+                        data: data
+                    });
+                }
             });
-
-            //执行搜索重载
-            table.reload('currentTableId', {
-                page: {
-                    curr: 1
-                }
-                , where: {
-                    searchParams: result
-                }
-            }, 'data');
-
             return false;
         });
 
@@ -156,11 +189,11 @@
         table.on('tool(currentTableFilter)', function (obj) {
             var data = obj.data;
             const showdata = {
-                id: '用户名：'+data.id,
-                time: '时间：'+data.time,
-                is_privacy: '是否隐私: '+data.is_privacy,
-                text: '文本内容: '+data.text,
-                information: "隐私内容: "+data.information,
+                id: '用户名：' + data.id,
+                time: '时间：' + data.time,
+                is_privacy: '是否隐私: ' + data.is_privacy,
+                text: '文本内容: ' + data.text,
+                information: "隐私内容: " + data.information,
                 image: data.image
             };
             if (obj.event === 'detail') {
@@ -190,29 +223,29 @@
                         </div>  
                     </div>  
                 </div>  
-                `;  
-                
-                var index = layer.open({  
-                    title: '图片查看',  
-                    type: 1,  
-                    shade: 0.2,  
-                    maxmin: true,  
-                    shadeClose: true,  
+                `;
+
+                var index = layer.open({
+                    title: '图片查看',
+                    type: 1,
+                    shade: 0.2,
+                    maxmin: true,
+                    shadeClose: true,
                     skin: 'layui-layer-molv', // 添加这一行以应用 layui 内置的主题  
-                    area: ['800px', '500px'],  
-                    offset: 'auto',  
-                    content: content,  
-                    success: function(layero, index){  
+                    area: ['800px', '500px'],
+                    offset: 'auto',
+                    content: content,
+                    success: function (layero, index) {
                         $(layero).find('.layui-layer-content').css('border-radius', '10px'); // 为弹出框内容添加圆角  
-                    }  
-                });  
+                    }
+                });
 
 
                 $(window).on("resize", function () {
                     layer.full(index);
                 });
                 return false;
-            } 
+            }
         });
     });
 </script>
