@@ -123,7 +123,7 @@
 
     .welcome .layuimini-notice-title,
     .layuimini-notice-label {
-        padding-right: 70px !important;
+        padding-right: 10px !important;
         text-overflow: ellipsis !important;
         overflow: hidden !important;
         white-space: nowrap !important;
@@ -387,7 +387,7 @@
                                         show: true  
                                     }  
                                 },  
-                                roam: true,  
+                                roam: false,  
                                 lineStyle: {  
                                     width: 1.0,  
                                     curveness: 0,  
@@ -454,12 +454,25 @@
                                 type: 'pie',
                                 radius: '55%',
                                 center: ['50%', '60%'],
-                                roseType: 'radius',
+                                roseType: '',
+                                itemStyle: {
+                                    borderWidth: 1.5, // 设置扇形之间的边界宽度
+                                    borderColor: '#fff', // 设置边界颜色为白色
+                                },
+                                label: {
+                                    show: true,
+                                    formatter: '{b} ({d}%)', // 显示扇形的名称和百分比
+                                },
+                                labelLine: {
+                                    show: true,
+                                    length: 15, // 扇形名称线的长度
+                                    length2: 20, // 扇形名称线的第二段长度
+                                },
                                 data: json.data,
                                 emphasis: {
                                     itemStyle: {
                                         shadowBlur: 10,
-                                        shadowOffsetX: 0,
+                                        shadowOffsetX: 10,
                                         shadowColor: 'rgba(0, 0, 0, 0.5)',
                                     },
                                 },
