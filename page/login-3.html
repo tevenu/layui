@@ -59,7 +59,7 @@
 <div class="main-body">
     <div class="login-main">
         <div class="login-top">
-            <span>LayuiMini后台登录</span>
+            <span>Privacy Login</span>
             <span class="bg1"></span>
             <span class="bg2"></span>
         </div>
@@ -67,9 +67,8 @@
             <div class="center">
                 <div class="item">
                     <span class="icon icon-2"></span>
-                    <input type="text" name="username" lay-verify="required"  placeholder="请输入登录账号" maxlength="24"/>
+                    <input type="text" name="username" lay-verify="required"  placeholder="请输入登录账号" maxlength="24" value="admin"/>
                 </div>
-
                 <div class="item">
                     <span class="icon icon-3"></span>
                     <input type="password" name="password" lay-verify="required"  placeholder="请输入密码" maxlength="20">
@@ -92,9 +91,6 @@
             </div>
         </form>
     </div>
-</div>
-<div class="footer">
-    ©版权所有 2014-2018 叁贰柒工作室<span class="padding-5">|</span><a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备16006642号-2</a>
 </div>
 <script src="../lib/layui-v2.5.5/layui.js" charset="utf-8"></script>
 <script>
@@ -139,8 +135,8 @@
                 layer.msg('验证码不能为空');
                 return false;
             }
-            layer.msg('登录成功', function () {
-                window.location = '../index.html';
+            layer.msg('登录成功', {time:750}, function () {
+                window.location = '../search.html';
             });
             return false;
         });
