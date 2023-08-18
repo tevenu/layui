@@ -25,11 +25,11 @@ def generate_random_nodes(num_nodes):
              "圆某人和四某人","英超联赛","不能吃甜辣","张路评球","Wink0v0","AKUM","早安没吃饱","AkiXXXL","曼城足球俱乐部","默离"]
     
     '''
-    
-    users = ['体坛周报','萌宠百科','黄健翔','Rukia_wjy','周琦_26','zhuluojiong','马小良','冯潇','溜溜哥','赛车星冰乐',
+    users = ['小美女沛沛张', '桃子椰椰冰', '一封来信', '每日甜分', '芸仔驾到', '一罐寡言', '焦糖奶梨', '阅读月亮', '小张今天不哭啦', '队长YoungCaptain', 'sosise','Gotolovekek', '肖肖5G冲浪', 'Peezizi', '尊的睡不捉', '小芊废话箱','vann_mclq', '771aozz', '没有日期的诗', '钟好好Z', '自然卷哒少女','沈蛋娃', 'liaukqhx', '夏天031003', '就0818', 'nokey线上商店','我是小学生别凶我', '爱睡觉的橙先生', 'Beloveddaga', '无法浮现在彼此脸上','毛元燕1991', '0405云梦', '处女Lisa', '男孩郭秀磊', '范青梅2003','雅泽YUZA', 'TalKti5_', '无话可说吧哈哈哈', '殷旭的地盘', '王长荣牛仔' ]
+    """users = ['体坛周报','萌宠百科','黄健翔','Rukia_wjy','周琦_26','zhuluojiong','马小良','冯潇','溜溜哥','赛车星冰乐',
             '我叫蓝姐','车手叶一飞','克总评车','狂飙客','韩寒','大油门的548','Superryry','Tommy12224','许子东','李武军',
             '曹亚旗','帅车评','巢巢巢巢巢Even','董路','李方妮','方正宇','崔岳2022','车手周冠宇','刘耀_FLy','老虎受欢迎',
-            '疯狂历史','刘叔Joe','新水令','小灰羊是杨晓辉','庄宁宇','上海申花足球俱乐部','娄一晨','月上寻兔呀','羽毛球杂志','Kiya']
+            '疯狂历史','刘叔Joe','新水令','小灰羊是杨晓辉','庄宁宇','上海申花足球俱乐部','娄一晨','月上寻兔呀','羽毛球杂志','Kiya']"""
     '''
     users = ['植物眼','内含子','河森堡','折翼丛林','贼叉','天冬','ZKColorful','常岩CY','胡正阳','硬哥',
             '植物眼1','内含子1','河森堡1','折翼丛林1','贼叉1','天冬1','ZKColorful1','常岩CY1','胡正阳1','硬哥1',
@@ -51,12 +51,13 @@ def generate_random_nodes(num_nodes):
         {
             "color": get_random_color(),  
             #"label": "余霜YSCandice",  
-            "label": "我是F1车手兵哥",
+            #"label": "我是F1车手兵哥",
+            "label": "KekIsgrowing",
             #"label":"空中的士马宏",
             "attributes": {"关系":"本人"},  
             "y": 0,  
             "x": 0,  
-            "id": "我是F1车手兵哥",
+            "id": "KekIsgrowing",
             #"id": "空中的士马宏",  
             #"id": "余霜YSCandice",  
             "size": 60 
@@ -72,11 +73,13 @@ def generate_random_edges(num_edges):
              "解说王淞","解说Kinko人","朱一龙","小米粥","年糕糕呀","陈欢","新浪游戏","解说Zonic","雨说体育徐静雨","楼盘黑衣人","YeGodzz",
              "圆某人和四某人","英超联赛","不能吃甜辣","张路评球","Wink0v0","AKUM","早安没吃饱","AkiXXXL","曼城足球俱乐部","默离"]
     '''
+
+    users = ['小美女沛沛张', '桃子椰椰冰', '一封来信', '每日甜分', '芸仔驾到', '一罐寡言', '焦糖奶梨', '阅读月亮', '小张今天不哭啦', '队长YoungCaptain', 'sosise','Gotolovekek', '肖肖5G冲浪', 'Peezizi', '尊的睡不捉', '小芊废话箱','vann_mclq', '771aozz', '没有日期的诗', '钟好好Z', '自然卷哒少女','沈蛋娃', 'liaukqhx', '夏天031003', '就0818', 'nokey线上商店','我是小学生别凶我', '爱睡觉的橙先生', 'Beloveddaga', '无法浮现在彼此脸上','毛元燕1991', '0405云梦', '处女Lisa', '男孩郭秀磊', '范青梅2003','雅泽YUZA', 'TalKti5_', '无话可说吧哈哈哈', '殷旭的地盘', '王长荣牛仔' ]
     
-    users = ['体坛周报','萌宠百科','黄健翔','Rukia_wjy','周琦_26','zhuluojiong','马小良','冯潇','溜溜哥','赛车星冰乐',
+    """users = ['体坛周报','萌宠百科','黄健翔','Rukia_wjy','周琦_26','zhuluojiong','马小良','冯潇','溜溜哥','赛车星冰乐',
             '我叫蓝姐','车手叶一飞','克总评车','狂飙客','韩寒','大油门的548','Superryry','Tommy12224','许子东','李武军',
             '曹亚旗','帅车评','巢巢巢巢巢Even','董路','李方妮','方正宇','崔岳2022','车手周冠宇','刘耀_FLy','老虎受欢迎',
-            '疯狂历史','刘叔Joe','新水令','小灰羊是杨晓辉','庄宁宇','上海申花足球俱乐部','娄一晨','月上寻兔呀','羽毛球杂志','Kiya']
+            '疯狂历史','刘叔Joe','新水令','小灰羊是杨晓辉','庄宁宇','上海申花足球俱乐部','娄一晨','月上寻兔呀','羽毛球杂志','Kiya']"""
 
     '''
 
@@ -88,7 +91,7 @@ def generate_random_edges(num_edges):
     for i in range(num_nodes):
         edges.append({
             #"sourceID": "余霜YSCandice",
-            "sourceID": "我是F1车手兵哥",
+            "sourceID": "KekIsgrowing",
             #"sourceID": "空中的士马宏",
             "attributes":{},
             "targetID": users[i],
@@ -128,5 +131,5 @@ random_data = {
     "edges": generate_random_edges(num_edges)  
 }  
   
-with open('layui/我是F1兵哥_network.json','w', encoding='utf-8') as file:
+with open('layui/KekIsgrowing_network.json','w', encoding='utf-8') as file:
     json.dump(random_data, file, indent=2, ensure_ascii=False)
