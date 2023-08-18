@@ -40,32 +40,6 @@
               "target": "_self"
             }
           ]
-        },
-        {
-          "title": "关于",
-          "href": "page/setting.html",
-          "icon": "fa fa-window-maximize",
-          "target": "_self"
-        }
-      ]
-    },
-    {
-      "title": "其它管理",
-      "icon": "fa fa-slideshare",
-      "href": "",
-      "target": "_self",
-      "child": [
-        {
-          "title": "多级菜单",
-          "href": "",
-          "icon": "fa fa-meetup",
-          "target": ""
-        },
-        {
-          "title": "失效菜单",
-          "href": "page/error.html",
-          "icon": "fa fa-superpowers",
-          "target": "_self"
         }
       ]
     }
